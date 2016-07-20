@@ -1,0 +1,10 @@
+pradip singhare: greatest web designer ever!
+
+media queries:
+
+1240-1024, 990-768, 640-480, 360-320, 320-0
+
+html_index
+html-list
+list-elements
+index-items

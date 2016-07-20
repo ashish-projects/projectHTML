@@ -1,0 +1,534 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+/* ======================css reset starts here========================= */
+
+
+
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-size: 100%;
+text-decoration:none;
+border:none;
+}
+
+/*For non html5 browser*/
+header, section, footer, aside, nav, main, article, figure {
+display: block;
+}
+
+a {
+color: #00308F		;
+}
+
+a:hover {
+color:#008000;
+text-decoration:none;
+ text-shadow: 2px 2px black;
+}
+
+
+/*  ======================css reset ends here========================== */
+
+/*  ======================css skelton========================== */
+
+html, body {
+height: 100%;
+width: 100%;
+font-family: Nunito;
+background-color: #ffffff;
+margin:0px;
+padding: 0px;
+overflow-x:hidden;
+}
+
+.wrapper {
+position: absolute;
+top: 0;
+left: 10%;
+width: 80%;
+margin: 0 auto;
+height: 100%;
+}
+
+.mainBody {
+position: relative;
+height: 100%;
+width:  100%;
+}
+
+.section {
+	position:relative;
+	height:100%;
+	width: 100%;
+}
+
+
+.footer {
+	position:relative;
+	top:400%;
+	width: 100%;
+	height: 50%;
+	background-color: grey;
+}
+
+.section4 a:hover{
+color: #00308F	;
+background-color: white;
+text-shadow: none;
+
+}
+
+.html-list {
+	font-family: 'Lora', serif;
+	font-size: 1.5vw;
+}
+
+.html-list a:hover {
+text-shadow: none;
+color:green;
+border: 2px solid grey;
+background-color:#B2BEB5;
+}
+
+/*  ======================css skelton ends here========================== */
+
+
+/*====================== css for the section1 ================== */
+
+.section1 {
+		background-image: url("../images/matrix.png");
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		background-size: cover;
+		/* background-size: 100% 100%; */
+		background-position: center center;
+		background-repeat: no-repeat;
+}
+
+
+.displayImage {
+position: absolute;
+height: 100%;
+width: 100%;
+opacity: 0.9;
+filter: alpha(opacity=0.9);
+object-fit: cover;
+}
+
+#logoImage {
+height: 14%;
+position: absolute;
+top: 0;
+left: 2%;
+opacity: 1;
+filter: alpha(opacity=1);    /* For IE8 and earlier */
+width: 9%;
+border: 3px solid #00308F;
+object-fit: cover;
+}
+
+#nav {
+position: absolute;
+top: 2%;    /* same as second image */
+left: 35%;
+width: 60%;
+height: 15%;
+padding: 0px;
+margin: 0;
+}
+
+#nav ul {
+width: 100%;
+height: 100%;
+padding: 0px;
+margin: 0px;
+
+}
+
+#nav ul li {
+display: block;
+width: 25%;
+height: 100%;
+color: red;
+text-align: center;
+float: left;
+}
+
+.navElement_span {
+position: absolute;
+top: 20%;
+padding: 0px;
+margin: 0 ;
+display: block;
+font-size: 3vw;
+}
+
+.main-content {
+position: absolute;
+top: 17%;
+left: 5%;
+width: 90%;
+border-radius: 15px;
+height: 77%;
+background-color:#F2F0E6;
+font-size: 1vw;
+}
+
+.author-info {
+position: absolute;
+width: 100%;
+top:0px;
+left:0px;
+height: 50%;
+text-align: left;
+border: 1px solid black;
+}
+
+.project-info {
+position: absolute;
+width: 100%;
+top:50%;
+left:0px;
+height: 50%;
+text-align: left;
+border: 1px solid black;
+}
+
+
+.author-heading {
+position: absolute;
+top: 0px;
+left: 0px;
+width:30%;
+height: 100%;
+
+}
+
+
+.author-desc {
+position: absolute;
+top: 0px;
+left:30%;
+height: 100%;
+text-align: left;
+width: 70%;
+}
+
+
+.project-heading {
+position: absolute;
+top: 0px;
+left: 0px;
+width:30%;
+height: 100%;
+text-align: left;
+
+}
+
+.project-desc {
+position: absolute;
+top: 0px;
+left:30%;
+height: 100%;
+width: 70%;
+}
+
+.desc {
+display: inline-block;
+	position: absolute;
+	top: 10%;
+	left: 0%;
+	height: 40%;
+	width: 100%;
+}
+
+.txt {
+	display: inline-block;
+	position: absolute;
+	top: 40%;
+	left: 15%;
+	height: 60%;
+	width: 60%;
+	text-align: center;
+}
+
+
+
+/*===================css for section1 ends here====================================*/
+
+/*===================css for section2 starts here====================================*/
+
+
+
+.html_heading {
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	font-size: 3vw;
+	color: #00308F;
+	transform: translate(-50%);
+	width: 67%;
+
+}
+
+.html_index {
+	position: absolute;
+	font-size: 2vw;
+	top:12%;
+	left: 3%;
+	color: #00308F;
+	height: 85%;
+	width: 33%;
+	text-transform: uppercase;
+}
+
+.html-list {
+height: 100%;
+}
+
+.list-elements {
+display: inline-block;
+width: 98%;
+height: 7%;
+
+}
+
+.index-items {
+	color: #00308F;
+	font-weight: bold;
+}
+/*===================css for section2 ends here====================================*/
+
+/*===================css for section3 starts here Css====================================*/
+
+
+.css_heading {
+	position: absolute;
+	top: 3%;
+	left: 50%;
+	font-size: 3vw;
+	color: #00308F;
+	transform: translate(-50%);
+
+}
+
+.css_index {
+	position: absolute;
+	font-size: 2vw;
+	top:12%;
+	left: 3%;
+	color: #00308F;
+	height: 85%;
+	width: 33%;
+	text-transform: uppercase;
+}
+
+.css-list {
+height: 100%;
+}
+
+
+/*===================css for section3 ends here====================================*/
+/*===================css for section4 starts here NEWS====================================*/
+
+
+.html-news {
+	position: absolute;
+	font-size: 2vw;
+	top:12%;
+	left: 3%;
+	color: #00308F;
+	height: 85%;
+	width: 100%;
+	overflow: hidden;
+	font-family: arial;
+	border: 5px solid red;
+}
+
+.news-list1{
+	position: absolute;
+	font-size: 2vw;
+	top:10%;
+	left: 7%;
+	font-family: arial;
+	color: #00308F;
+	height: 35%;
+}
+
+.news-list2 {
+	position: absolute;
+	font-size: 2vw;
+	top:50%;
+	left: 7%;
+	font-family: arial;
+	color:#00308F;
+	height:35%;
+}
+
+.news-page-link {
+	position: absolute;
+	top: 90%;
+	left: 90%;
+	height: 10%;
+}
+
+.more-news {
+font-size: 1vw;
+font-weight: bold;
+cursor: pointer;
+}
+
+
+/*===================css for section4 ends here====================================*/
+
+
+/*===================css for section5 starts here====================================*/
+
+
+.news-heading {
+
+	 color:  #00308F;
+
+}
+
+.section5 {
+
+	border: 1px solid grey;
+}
+
+form {
+	width: 100%;
+	height: 100%;
+}
+
+.contact-me {
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	width: 75%;
+	padding:2%;
+	height: 60%;
+	padding-top: 0px;
+}
+
+.input-box {
+border: 1px solid grey;
+width: 100%;
+}
+
+.input-area {
+width: 100%;
+height: 40%;
+border: 2px solid grey;
+color: grey;
+}
+
+.input-submit {
+	border: 1px solid grey;
+	position:absolute;
+	bottom: 2%;
+	left: 40%;
+}
+.social-icon {
+position:absolute;
+bottom:5%;
+width:10%;
+height:15%;
+object-fit: contain;
+}
+
+.twitter-image {
+	left: 2%;
+}
+
+.facebook-image {
+left: 15%;
+
+}
+
+.contact_us-image{
+	left: 27%;
+}
+
+.email_us-image {
+left: 39%;
+}
+
+.linked-image {
+
+	left: 51%;
+}
+.googleplus-image {
+
+left:65%;
+}
+
+.youtube-image {
+
+left: 77%;
+}
+
+.pintrest-image {
+
+left:89%;
+}
+/*===================css for section5 ends here====================================*/
+
+/*===================css for footer starts here====================================*/
+
+.copyright {
+	position: absolute;
+	bottom: 2%;
+	left:4%;
+}
+
+/*===================css for footer ends here====================================*/
+
+@media only screen and (max-width: 500px)
+{
+
+		.html_heading{
+		font-size: 15px;
+		}
+
+       .desc
+       {
+           font-size:10px;
+        }
+        .html{
+				font-size: 15px;
+        }
+        .html_index {
+				font-size: 15px;
+        }
+        .html_list {
+				font-size: 15px;
+        }
+        .index-items {
+				font-size: 15px;
+        }
+        .html-news {
+				font-size: 15px;
+			}
+
+			.news-list1{
+				font-size: 15px;
+			}
+
+			.news-list2 {
+				font-size: 15px;
+			}
+
+			.news-page-link {
+				font-size: 15px;
+			}
+
+			.more-news {
+			font-size: 15px;
+			}
+			.txt {
+			font-size: 15px;
+			}
+}
