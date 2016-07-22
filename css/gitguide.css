@@ -2,7 +2,6 @@
 .wrapper {
    background-color: #FFFF99 ;
    width: 90%;
-   height: 3000px;
    margin: 0 auto;
    position:  relative;
 }
@@ -14,12 +13,21 @@ header {
       position: relative;
 }
 section {
-   height: 1000px;
+   height: 4000px;
    border: 2px solid black;
-
 }
 
-h1, h2, h3 {
+article:nth-child(even){
+   background-color: #FAEBD7 ;
+   border: 3px solid blue;
+}
+article:nth-child(odd){
+   background-color: grey ;
+   border: 3px solid red;
+}
+
+
+h1, h2 {
    text-align: center;
 }
 
@@ -30,4 +38,27 @@ nav  {
    bottom: 0px;
    border: 1px solid green;
    width: 100%;
+}
+
+footer {
+   text-align: center;
+   height: 300px;
+   border: 1px solid black;
+   width: 100%;
+}
+
+.code {
+     font-weight: bold;
+}
+
+ ul > li {
+   display: inline-block;
+   list-style: none;
+   float: left;
+   width: 15%;
+   height: 20px;
+}
+
+li > a {
+   text-decoration: none;
 }
