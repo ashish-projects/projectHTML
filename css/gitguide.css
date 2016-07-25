@@ -1,0 +1,33 @@
+
+.wrapper {
+   background-color: #FFFF99 ;
+   width: 90%;
+   height: 3000px;
+   margin: 0 auto;
+   position:  relative;
+}
+
+header {
+      border: 2px solid black;
+      height: 150px;
+      color:   #0000FF;
+      position: relative;
+}
+section {
+   height: 1000px;
+   border: 2px solid black;
+
+}
+
+h1, h2, h3 {
+   text-align: center;
+}
+
+nav  {
+   text-align: center;
+   height: 50px;
+   position: absolute;
+   bottom: 0px;
+   border: 1px solid green;
+   width: 100%;
+}
