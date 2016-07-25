@@ -7,28 +7,10 @@
 }
 
 header {
-      border: 2px solid black;
+      border: 2px solid grey;
       height: 150px;
       color:   #0000FF;
       position: relative;
-}
-section {
-   height: 4000px;
-   border: 2px solid black;
-}
-
-article:nth-child(even){
-   background-color: #FAEBD7 ;
-   border: 3px solid blue;
-}
-article:nth-child(odd){
-   background-color: grey ;
-   border: 3px solid red;
-}
-
-
-h1, h2 {
-   text-align: center;
 }
 
 nav  {
@@ -36,8 +18,26 @@ nav  {
    height: 50px;
    position: absolute;
    bottom: 0px;
-   border: 1px solid green;
    width: 100%;
+   border: 1px solid grey;
+}
+
+section {
+   height: 4000px;
+   border: 2px solid grey;
+}
+
+
+h1, h2 {
+   text-align: center;
+}
+
+article {
+border : 1px solid grey;
+}
+
+article:nth-child(even){
+   background-color: #F0DC82;
 }
 
 footer {
@@ -61,4 +61,9 @@ footer {
 
 li > a {
    text-decoration: none;
+
+}
+
+li > a:hover {
+background-color: grey;
 }
