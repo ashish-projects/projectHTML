@@ -236,12 +236,12 @@ width: 70%;
 }
 
 .desc {
-display: inline-block;
-	position: absolute;
-	top: 10%;
-	left: 0%;
-	height: 40%;
-	width: 100%;
+display: block;
+position: absolute;
+top: 20%;
+left: 0%;
+height: 60%;
+width: 100%;
 }
 
 .txt {
@@ -381,6 +381,8 @@ cursor: pointer;
 }
 
 
+
+
 /*===================css for section4 ends here====================================*/
 
 
@@ -426,10 +428,7 @@ color: grey;
 }
 
 .input-submit {
-	border: 1px solid grey;
-	position:absolute;
-	bottom: 2%;
-	left: 40%;
+
 }
 .social-icon {
 position:absolute;
@@ -486,49 +485,60 @@ left:89%;
 
 /*===================css for footer ends here====================================*/
 
-@media only screen and (max-width: 500px)
+@media screen and (min-width: 600px)
+{
+	.desc {
+		font-size : 19px;
+		}
+	.txt {
+		font-size : 19px;
+	}
+
+}
+
+@media screen and (max-width: 600px)
 {
 
 		.html_heading{
 		font-size: 15px;
 		}
 
-       .desc
-       {
-           font-size:10px;
-        }
-        .html{
-				font-size: 15px;
-        }
-        .html_index {
-				font-size: 15px;
-        }
-        .html_list {
-				font-size: 15px;
-        }
-        .index-items {
-				font-size: 15px;
-        }
-        .html-news {
-				font-size: 15px;
-			}
-
-			.news-list1{
-				font-size: 15px;
-			}
-
-			.news-list2 {
-				font-size: 15px;
-			}
-
-			.news-page-link {
-				font-size: 15px;
-			}
-
-			.more-news {
+    .desc
+    {
+        font-size:9px;
+     }
+     .html{
 			font-size: 15px;
-			}
-			.txt {
+     }
+     .html_index {
 			font-size: 15px;
-			}
+     }
+     .html_list {
+			font-size: 15px;
+     }
+     .index-items {
+			font-size: 15px;
+     }
+     .html-news {
+			font-size: 15px;
+		}
+
+		.news-list1{
+			font-size: 13px;
+		}
+
+		.news-list2 {
+			font-size: 13px;
+		}
+
+		.news-page-link {
+			font-size: 15px;
+		}
+
+		.more-news {
+		font-size: 15px;
+		}
+		.txt {
+		font-size: 15px;
+		}
 }
