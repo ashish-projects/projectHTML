@@ -26,37 +26,36 @@
 
             <article>
                <h3>Day : Check if git is installed</h3>
-               <p >git : this will provide the information </pre>
+               <p class="code">git </p>
             </article>
 
             <article>
                <h3>Day : Install Git</h3>
-               <p >Install git from the link: </pre>
-               <p> Things to check while installing:</p>
+               <p >Install git from the link depending on operating system </p>
             </article>
 
             <article>
-               <h3>Day 1: Check Git Version</h3>
-               <p class="code">git --version</pre>
+               <h3>Day: Check Git Version</h3>
+               <p class="code">git --version</p>
             </article>
 
             <article>
                <h3>Day : Git Help</h3>
-               <p class="code">git help</pre>
-               <p class="code">git help command : eg: git help commit</pre>
+               <p class="code">git help</p>
+               <p class="code">git help command : eg: git help commit</p>
             </article>
 
             <article>
                <h3>Day : Config Username and Email</h3>
-               <p class="code">git config --global user.name "nameOfUser" : configures Name</pre>
-               <p class="code">git config --global user.email "emailOfUser" : configures email</pre>
+               <p class="code">git config --global user.name "nameOfUser" : configures Name</p>
+               <p class="code">git config --global user.email "emailOfUser" : configures email</p>
             </article>
 
             <article>
                <h3>Day : Check  Username And Email Configured to Git</h3>
-               <p class="code">git config  user.name  : provides name configured with git</pre>
-               <p class="code">git config  user.email  : provides email configured with git</pre>
-               <p class="code">git --list : provides all configured details</pre>
+               <p class="code">git config  user.name  : provides name configured with git</p>
+               <p class="code">git config  user.email  : provides email configured with git</p>
+               <p class="code">git config --list : provides all configured details</p>
             </article>
 
             <article>
@@ -67,7 +66,7 @@
             <article>
                <h3>Day : Initialize Git Repo</h3>
                <p class="code">git status : check if it is or isn't initialized</p>
-               <p class="code">git init</pre>
+               <p class="code">git init</p>
             </article>
 
             <article>
@@ -77,32 +76,42 @@
 
             <article>
                <h3>DAY : Adding a File</h3>
+               <p>After adding or modifying a file in a project on local machine</p>
                <p class="code">git status : check status</p>
-               <p class="code">git add filename : adds a single file</pre>
-               <p class="code">git add . : adds all files</pre>
+               <p class="code">git add filename : adds a single file</p>
+               <p class="code">git add . : adds all files in a folder</p>
             </article>
 
             <article>
                <h3>DAY : Commiting Changes</h3>
                <p class="code">git status : check status</p>
-               <p class="code">git commit -m "commit message"</pre>
+               <p class="code">git commit -m "commit message"</p>
             </article>
+
+             <article>
+               <h3>DAY : Commiting Without Adding</h3>
+               <p class="code">git commit -am "commit message without adding to staged area, to be used only when modifying file or creating one"</p>
+            </article>
+
 
             <article>
                <h3>DAY : Checking Commits</h3>
                <p class="code">git log : provides all commits</p>
-               <p class="code">git log --author="contributor Name"</pre>
+               <p class="code">git log --author="contributor Name"</p>
+               <p class="code">git log --pretty=oneline</p>
+               <p class="code">git log --pretty=oneline (anyNumber) e.g git log ==pretty=oneline -3</p>
             </article>
 
             <article>
                <h3>DAY : Checking Difference</h3>
-               <p class="code">git diff :  provides difference between working copy  and repo on git</p>
-               <p class="code">git diff --staged : difference between staged  copy and repo</pre>
+               <p class="code">git diff :  provides difference between working area  and commited area </p>
+               <p class="code">git diff --staged : difference between staged area  and commited area</pre>
             </article>
 
             <article>
                <h3>DAY : Removing File</h3>
-               <p class="code">git rm "filename" : file can be deleted from git bash too</p>
+               <p>Unlike modifying or creating a file, when you delete a file</p>
+               <p class="code">git rm "filename" : file can be deleted from git bash too using the same command</p>
             </article>
 
             <article>
@@ -111,17 +120,15 @@
                <p class="code">git mv "filename1" "folder/filename2" : file can be deleted from git bash too</p>
             </article>
 
-            <article>
-               <h3>DAY : Commiting Without Adding</h3>
-               <p class="code">git commit -am "commit message without adding to staged area"</p>
-            </article>
 
+<!-- below article is not verified -->
             <article>
                <h3>DAY : Getting Backup of any File not added/commited</h3>
                <p class="code">git status</p>
                <p class="code">git checkout --filename</p>
             </article>
 
+<!-- below article is not verified -->
             <article>
                <h3>DAY : Unstagging a File</h3>
                <p class="code">git reset Head</p>
@@ -134,9 +141,39 @@
                <p class="code">git status</p>
             </article>
 
+            <article>
+               <h3>Check Branches on the git</h3>
+               <p class="code">git branch</p>
+            </article>
+
+            <article>
+               <h3>Creating a branch</h3>
+               <p class="code">git branch : check branches on the git</p>
+               <p class="code">git branch branchname : created branch with name provided</p>
+               <p class="code">git checkout -b branchname : creates and checkout that branch</p>
+               <p class="code">git branch : check branches on the git</p
+            </article>
+
+            <article>
+               <h3>Change branch</h3>
+               <p>git checkout branchname</p>
+            </article>
+
               <article>
                <h3>DAY : Deleting a Branch</h3>
-               <p>git branch -D branchname</p>
+               <p class="code">git branch : check branches on the git</p>
+               <p class="code">git branch -D branchname</p>
+               <p class="code">git branch : check branches on the git</p>
+            </article>
+
+            <article>
+               <h3>Merging two branches</h3>
+               <p class="code">git merge UpdatedBranch : After Going to the branch that is not update</p>
+            </article>
+
+            <article>
+               <h3>DAY: Stopping git from unTracking some files</h3>
+               <p>Create file .gitignore and put the file name on the same</p>
             </article>
 
 
@@ -156,19 +193,47 @@
                <p>Created repo abc (same name as on computer) on the git hub and do not initialize it</p>
                <p>With Git Installed:
                <p>Go to the folder</p>
-               <p>git Init</p>
-               <p>git add .</p>
-               <p>git commit -m "first commit"</p>
+               <p class="code">git Init</p>
+               <p class="code">git add .</p>
+               <p class="code">git commit -m "first commit"</p>
                <p>git remote add anyNameYouWantToGiveToRepo(nickname) url(github that was created , in this case abc )</p>
                <p>git remote add origin url : Alternate command</p>
                <p>Put github name and password</p>
-               <p>git push -u nicknameAddedPreviously master</p>
+               <p>git push -u nicknameAddedPreviously branchname</p>
+               <p>git push -u origin master</p>
             </article>
 
             <article>
                <h3>Already have a project on github</h3>
                <p>git clone url(copy from github) </p>
-               <p>git init : in case it is not initialized</p>
+               <p>git clone url(copy from github) folderName : will clone in the folderName provided</p>
+               <p>git init : in case it is not initialized on github</p>
+            </article>
+
+            <article>
+               <h3>Pushing to github after commited </h3>
+               <p class="code">git remote: checks name of remote, default is origin</p>
+               <p class="code">git remote -v: checks name of remote, also provides Url for the same</p>
+               <p class="code"> git push origin master/BranchName</p>
+            </article>
+
+            <article>
+               <h3>Pull change from github</h3>
+               <p>git pull</p>
+            </article>
+
+            <article>
+               <h3>Changing Name of the remote</h3>
+            </article>
+
+            <article>
+               <h3>Create branch or push new branch on github</h3>
+               <p>git push origin Branchname</p>
+            </article>
+
+             <article>
+               <h3>Delete branch on github</h3>
+               <p> git push origin --delete branchName</p>
             </article>
 
          </section><!-- Section for github ends here  -->
@@ -210,7 +275,7 @@
          </section> <!-- Section for git and github monitering for absolute integrity ends here-->
 
          <footer>
-               <p>Copyright violaters will be shot!</p>
+               <p>Copyright violaters will be shot! not sure though</p>
          </footer>
       </div> <!-- wrapper class ends here -->
 </body>
