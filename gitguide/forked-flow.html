@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Git Guide</title>
+   <link rel="stylesheet" type="text/css" href="../css/naormalize.css">
+   <link rel="stylesheet" type="text/css" href="../css/gitguide.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+      <div class="wrapper">
+         <header>
+            <h1>365 DAYS OF GIT</h1>
+            <nav>
+              <ul>
+                 <li><a href="">Git Basics</a></li>
+                 <li><a href="">Commands for Git</a></li>
+                 <li><a href="">Commands for Github</a></li>
+                 <li><a href="">Github collabaration</a></li>
+                 <li><a href="">Alpha</a></li>
+                 <li><a href="">Beta</a></li>
+              </ul>
+            </nav>
+         </header>
+
+         <section> <!-- Section for git -->
+            <h2>This Section Covers Most Common Flow when working on forked Repo</h2>
+            <article>
+                  <ol class="forked-flow">
+
+                  <!-- part Open -->
+                     <li>Fork a GitHub repository.<span class="code">From the github</span></li>
+                     <li>Clone the forked repository to your local <span class="code">git clone url(your github url of cloned repo, not theirs)</span>
+                     </li>
+                     <li>Add a Git remote for the original repository.<span class="code">git remote add upstream url (forked projects URL, not yours)</span></li>
+
+                  <!-- part two -->
+                     <li>CHeck branches <span class="code">git remote -v</span></li>
+                     <li>Create a feature branch in which to place your changes.<span class="code">git checkout -b "newBranchName"></span></li>
+                     <li>Make your changes to the new branch simply as on standalone git <span class="code">git add * or filename</span></li>
+                     <li>Commit the changes to the branch simply as on standalone git <span class="code">git commit -m "message"</span></li>
+                     <li>Push the branch to GitHub, this will create same branch on your github too <span class="code">git push origin "newBranchName"</span> </li>
+
+                  <!-- part three -->
+                     <li>Open a pull request from the new branch to the original repo. <span class="code">From the github which by now will prompt you to create pull request</span></li>
+                     <li>Update your local project with upstream.<span class="code">git pull upstream master</span></li>
+                     <li>Delete the branch just created : "newBranchName"<span class="code">git branch -d "newBranchName"</span></li>
+                     <li>Update master branch in forked repo : <span class="code">git push origin master</span></li>
+                     <li>Delete the new branch created on forked version too <span class="code">git push --delete origin "newBranchName"</span></li>
+                  </ol>
+            </article>
+         </section>
+</body>
+</html>
