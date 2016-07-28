@@ -4,6 +4,7 @@
    <title>Git Guide</title>
    <link rel="stylesheet" type="text/css" href="../css/naormalize.css">
    <link rel="stylesheet" type="text/css" href="../css/gitguide.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
       <div class="wrapper">
@@ -60,7 +61,8 @@
 
             <article>
                <h3>Day : Check if repo/project is Git initalized</h3>
-               <p class="code">git status</pre>
+               <p class="code">git status</p>
+               <p>Status Meaning:</p>
             </article>
 
             <article>
@@ -249,9 +251,32 @@
             <article>
             <h3>Working on someones repo</h3>
             <p>Fork repo</p>
-            <p>Clone it</p>
+            <p class="code">git clone url(ur own forked copy)</p>
             <p> Make changes + add/delete + commit + push</p>
             <p>Create Pull request from the github</p>
+            </article>
+
+            <article>
+               <h3>Add 'upstream' repo to list of remotes</h3>
+               <p class="code">git remote -v : check if any upstream</p>
+               <p class="code">git remote add upstream https://github.com/UPSTREAM-USER/ORIGINAL-PROJECT.git</p>
+               <p class="code">git remote -v : check if any upstream</p>
+            </article>
+
+            <article>
+               <h3>View all branches</h3>
+                  <p class="code">git branch -va</p>
+            </article>
+
+            <article>
+               <h3>Fetching from upstream</h3>
+               <p class="code">git fetch upstream</p>
+            </article>
+
+            <article>
+               <h3>Merge Master from upstream</h3>
+               <p class="code">git checkout master</p>
+               <p class="code">git merge upstream/master</p>
             </article>
 
             <article>
