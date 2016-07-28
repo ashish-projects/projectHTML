@@ -67,3 +67,11 @@ li > a {
 li > a:hover {
 background-color: grey;
 }
+
+.forked-flow li {
+   line-height: 30px;
+}
+
+.forked-flow li:nth-child(odd)  {
+   background-color: grey;
+}
