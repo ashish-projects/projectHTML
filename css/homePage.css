@@ -488,10 +488,10 @@ left:89%;
 @media screen and (min-width: 600px)
 {
 	.desc {
-		font-size : 19px;
+		font-size : 10px;
 		}
 	.txt {
-		font-size : 19px;
+		font-size : 10px;
 	}
 
 }
@@ -505,7 +505,7 @@ left:89%;
 
     .desc
     {
-        font-size:9px;
+        font-size:11px;
      }
      .html{
 			font-size: 15px;
@@ -541,4 +541,11 @@ left:89%;
 		.txt {
 		font-size: 15px;
 		}
+
+	#logoImage {
+    width: 60px;
+    height: 60px;
+}
+
+
 }
