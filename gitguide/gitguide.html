@@ -46,7 +46,7 @@
 
             <article>
                <h3>Day : Install Git</h3>
-               <p >Install git from the link depending on operating system </p>
+               <p >Install git from the link depending on operating system from the link : https://git-scm.com/downloads </p>
             </article>
 
             <article>
@@ -76,95 +76,91 @@
             <article>
                <h3>Day : Check if repo/project is Git initalized</h3>
                <p class="code">git status</p>
-               <p>Status Meaning:</p>
+               <p>Status Meaning: </p>
+                  <ol class="inner-list">
+                  <li>red: changed files still in working copy</li>
+                  <li>green: files changed but still in stagging area</li>
+                  <li>No changes: "nothing to commit, working tree clean"</li>
+                  <li></li>
+                  </ol>
             </article>
 
             <article>
                <h3>Day : Initialize Git Repo</h3>
-               <p class="code">git status : check if it is or isn't initialized</p>
-               <p class="code">git init</p>
-            </article>
-
-            <article>
-               <h3>DAY : Check Status</h3>
-               <p class="code">git status : check status of file in working area and staging area, red and green colored resp </p>
+               <p > <span class="code">git status</span> check if it is or isn't initialized</p>
+               <p > <span class="code">git init</span></p>
             </article>
 
             <article>
                <h3>DAY : Adding a File</h3>
                <p>After adding or modifying a file in a project on local machine</p>
-               <p class="code">git status : check status</p>
-               <p class="code">git add filename : adds a single file</p>
-               <p class="code">git add . : adds all files in a folder</p>
+               <p><span class="code">git status</span> check status</p>
+               <p><span class="code">git add filename</span>adds a single file</p>
+               <p><span class="code">git add .</span> adds all files in a folder</p>
             </article>
 
             <article>
                <h3>DAY : Commiting Changes</h3>
-               <p class="code">git status : check status</p>
-               <p class="code">git commit -m "commit message"</p>
+               <p> <span class="code">git status</span> : check status</p>
+               <p> <span class="code">git commit -m "commit message"</span></p>
             </article>
 
              <article>
                <h3>DAY : Commiting Without Adding</h3>
-               <p class="code">git commit -am "commit message without adding to staged area, to be used only when modifying file or creating one"</p>
+               <p ><span class="code">git commit -am "message" </span>commit message without adding to staged area, to be used only when modifying file or creating one"</p>
             </article>
 
 
             <article>
                <h3>DAY : Checking Commits</h3>
-               <p class="code">git log : provides all commits</p>
-               <p class="code">git log --author="contributor Name"</p>
-               <p class="code">git log --pretty=oneline</p>
-               <p class="code">git log --pretty=oneline (anyNumber) e.g git log ==pretty=oneline -3</p>
+               <p ><span class="code">git log </span>: provides all commits</p>
+               <p ><span class="code">git log --author="contributor Name"</span></p>
+               <p ><span class="code">git log --pretty=oneline</span></p>
+               <p ><span class="code">git log --pretty=oneline (anyNumber)</span> e.g git log ==pretty=oneline -3</p>
             </article>
 
             <article>
                <h3>DAY : Checking Difference</h3>
-               <p class="code">git diff :  provides difference between working area  and commited area </p>
-               <p class="code">git diff --staged : difference between staged area  and commited area</pre>
+               <p ><span class="code">git diff</span> provides difference between working area  and commited area </p>
+               <p ><span class="code">git diff --staged</span> difference between staged area  and commited area</p>
             </article>
 
             <article>
                <h3>DAY : Removing File</h3>
                <p>Unlike modifying or creating a file, when you delete a file</p>
-               <p class="code">git rm "filename" : file can be deleted from git bash too using the same command</p>
+               <p><span class="code">git rm "filename"</span> file can be deleted from git bash too using the same command</p>
             </article>
 
             <article>
                <h3>DAY : Renaming File</h3>
-               <p class="code">git mv "filename1" "filename2" : file can be deleted from git bash too</p>
-               <p class="code">git mv "filename1" "folder/filename2" : file can be deleted from git bash too</p>
+               <p><span class="code">git mv "filename1" "filename2"</span> file can be renamed from git bash too</p>
+               <p ><span class="code">git mv "filename1" "folder/filename2"</span> file can be moved from git bash too</p>
             </article>
 
             <article>
-               <h3>DAY : Getting Backup of any File not added/commited</h3>
-               <p class="code">git status</p>
-               <p class="code">git checkout --filename</p>
-            </article>
-
-            <article>
-               <h3>DAY : Unstagging a File</h3>
-               <p class="code">git reset Head filename</p>
+               <h3>DAY : Unstaging a file</h3>
+               <p ><span class="code">git status</span>Provides the files in stagging area</p>
+               <p ><span class="code">git reset Head filename</span></p>
             </article>
 
             <article>
                <h3>DAY : Getting old version after commiting</h3>
-               <p class="code">git log</p>
-               <p class="code">git checkout "first few digits of branch" --filename</p>
-               <p class="code">git status</p>
+               <p ><span class="code">git log</span></p>
+               <p ><span class="code">git checkout "first few digits of branch" --filename</span></p>
+               <p ><span class="code">git status</span></p>
             </article>
 
             <article>
                <h3>Check Branches on the git</h3>
-               <p class="code">git branch</p>
+               <p ><span class="code">git branch</span></p>
             </article>
 
             <article>
                <h3>Creating a branch</h3>
-               <p class="code">git branch : check branches on the git</p>
-               <p class="code">git branch branchname : created branch with name provided</p>
-               <p class="code">git checkout -b branchname : creates and checkout that branch</p>
-               <p class="code">git branch : check branches on the git</p>
+               <p ><span class="code">git branch</span> check branches on the git</p>
+               <p ><span class="code">git branch branchname</span> created branch with name provided</p>
+               <p ><span class="code">git checkout -b branchname</span> creates and checkout that branch</p>
+               <p ><span class="code">git branch</span> check branches on the git</p>
             </article>
 
             <article>
@@ -174,14 +170,14 @@
 
               <article>
                <h3>DAY : Deleting a Branch</h3>
-               <p class="code">git branch : check branches on the git</p>
-               <p class="code">git branch -D branchname</p>
-               <p class="code">git branch : check branches on the git</p>
+               <p><span class="code">git branch</span>check branches on the git</p>
+               <p><span class="code">git branch -D branchname</span></p>
+               <p><span class="code">git branch</span>check branches on the git</p>
             </article>
 
             <article>
                <h3>Merging two branches</h3>
-               <p class="code">git merge UpdatedBranch : After Going to the branch that is not update</p>
+               <p><span class="code">git merge UpdatedBranch</span> After Going to the branch that is not update</p>
             </article>
 
             <article>
