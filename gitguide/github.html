@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Git Guide</title>
+   <link rel="stylesheet" type="text/css" href="../css/normalize.css?45">
+   <link rel="stylesheet" type="text/css" href="../css/gitguide.css?34">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+      <div class="wrapper">
+         <header>
+            <div class="header">
+            <nav>
+              <ul>
+                 <li><a href="gitguide.html">Git </a></li>
+                 <li><a href="github.html">Git with Github</a></li>
+                 <li><a href="githubCollabaration.html">Github collabaration</a></li>
+              </ul>
+            </nav>
+            <h1 class="main-heading">365 DAYS OF GIT</h1>
+            </div>
+            <nav>
+              <ul>
+                 <li><a href="gitguide.html">Git </a></li>
+                 <li><a href="github.html">Git with Github</a></li>
+                 <li><a href="githubCollabaration.html">Github collabaration</a></li>
+                 <li><a href="">Alpha</a></li>
+                 <li><a href="">Beta</a></li>
+                 <li><a href="">gamma</a></li>
+              </ul>
+            </nav>
+         </header>
+
+        <section> <!-- Section for github starts here-->
+            <div class="second-heading">
+               <h2>This Section Covers GitHub</h2>
+               <h2>This Section Covers Git</h2>
+               <div class="search">
+                  <input class="search-text" type="text" name="searched-text">
+                  <input class="search-button" type="submit" name="search" value="search">
+               </div>
+            </div>
+            <article>
+               <h3>Basics of Git Hub page</h3>
+               <p>Creating Repo : </p>
+            </article>
+
+            <article>
+               <h3>Already have a project on computer</h3>
+               <p>Created repo abc (same name as on computer) on the git hub and do not initialize it</p>
+               <p>With Git Installed:
+               <p>Go to the folder </p>
+               <p> <span class="code">git Init </span></p>
+               <p> <span class="code">git add . </span></p>
+               <p> <span class="code">git commit -m "first commit" </span></p>
+               <p> <span class="code">git remote add anyNameYouWantToGiveToRepo(nickname) url(github that was created , in this case abc ) </span></p>
+               <p> <span class="code">git remote add origin url </span> Alternate command</p>
+               <p>Put github name and password</p>
+               <p> <span class="code">git push -u nicknameAddedPreviously branchname</span></p>
+               <p> <span class="code">git push -u origin master</span></p>
+            </article>
+
+            <article>
+               <h3>Already have a project on github</h3>
+               <p> <span class="code">git clone url(copy from github)</span> </p>
+               <p> <span class="code">git clone url(copy from github) folderName :</span> will clone in the folderName provided</p>
+               <p><span class="code">git init </span> in case it is not initialized on github</p>
+            </article>
+
+            <article>
+               <h3>Pushing to github after commited </h3>
+               <p> <span class="code">git remote </span> checks name of remote, default is origin</p>
+               <p> <span class="code">git remote -v</span> checks name of remote, also provides Url for the same</p>
+               <p> <span class="code">git push origin master/BranchName</span></p>
+            </article>
+
+            <article>
+               <h3>Pull change from github</h3>
+               <p> <span class="code">git pull</span></p>
+            </article>
+
+            <article>
+               <h3>Changing Name of the remote</h3>
+            </article>
+
+            <article>
+               <h3>Create branch or push new branch on github</h3>
+               <p> <span class="code">git push origin Branchname</span></p>
+            </article>
+
+             <article>
+               <h3>Delete branch on github</h3>
+               <p> <span class="code">git push origin --delete branchName</span></p>
+            </article>
+
+         </section><!-- Section for github ends here  -->
+
+         <footer>
+               <p>Copyright violaters will be shot! not sure though</p>
+         </footer>
+      </div> <!-- wrapper class ends here -->
+</body>
+</html>
+
+

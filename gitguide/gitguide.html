@@ -2,32 +2,46 @@
 <html>
 <head>
    <title>Git Guide</title>
-   <link rel="stylesheet" type="text/css" href="../css/naormalize.css">
-   <link rel="stylesheet" type="text/css" href="../css/gitguide.css">
+   <link rel="stylesheet" type="text/css" href="../css/normalize.css?10">
+   <link rel="stylesheet" type="text/css" href="../css/gitguide.css?23">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
       <div class="wrapper">
          <header>
-            <h1>365 DAYS OF GIT</h1>
+            <div class="header">
             <nav>
               <ul>
-                 <li><a href="">Git Basics</a></li>
-                 <li><a href="">Commands for Git</a></li>
-                 <li><a href="">Commands for Github</a></li>
-                 <li><a href="">Github collabaration</a></li>
+                 <li><a href="gitguide.html">Git </a></li>
+                 <li><a href="github.html">Git with Github</a></li>
+                 <li><a href="githubCollabaration.html">Github collabaration</a></li>
+              </ul>
+            </nav>
+            <h1 class="main-heading">365 DAYS OF GIT</h1>
+            </div>
+            <nav>
+              <ul>
+                 <li><a href="gitguide.html">Git </a></li>
+                 <li><a href="github.html">Git with Github</a></li>
+                 <li><a href="githubCollabaration.html">Github collabaration</a></li>
                  <li><a href="">Alpha</a></li>
                  <li><a href="">Beta</a></li>
+                 <li><a href="">gamma</a></li>
               </ul>
             </nav>
          </header>
 
          <section> <!-- Section for git -->
+         <div class="second-heading">
             <h2>This Section Covers Git</h2>
-
+            <div class="search">
+               <input class="search-text" type="text" name="searched-text">
+               <input class="search-button" type="submit" name="search" value="search">
+            </div>
+         </div>
             <article>
                <h3>Day : Check if git is installed</h3>
-               <p class="code">git </p>
+               <p> <span class="code"> git </span> </p>
             </article>
 
             <article>
@@ -122,24 +136,21 @@
                <p class="code">git mv "filename1" "folder/filename2" : file can be deleted from git bash too</p>
             </article>
 
-
-<!-- below article is not verified -->
             <article>
                <h3>DAY : Getting Backup of any File not added/commited</h3>
                <p class="code">git status</p>
                <p class="code">git checkout --filename</p>
             </article>
 
-<!-- below article is not verified -->
             <article>
                <h3>DAY : Unstagging a File</h3>
-               <p class="code">git reset Head</p>
+               <p class="code">git reset Head filename</p>
             </article>
 
             <article>
                <h3>DAY : Getting old version after commiting</h3>
                <p class="code">git log</p>
-               <p class="code">git checkout "first few digits of branch</p>
+               <p class="code">git checkout "first few digits of branch" --filename</p>
                <p class="code">git status</p>
             </article>
 
@@ -153,7 +164,7 @@
                <p class="code">git branch : check branches on the git</p>
                <p class="code">git branch branchname : created branch with name provided</p>
                <p class="code">git checkout -b branchname : creates and checkout that branch</p>
-               <p class="code">git branch : check branches on the git</p
+               <p class="code">git branch : check branches on the git</p>
             </article>
 
             <article>
@@ -178,126 +189,17 @@
                <p>Create file .gitignore and put the file name on the same</p>
             </article>
 
+            <article>
+               <h3>DAY: Shashing Changes</h3>
+               <p></p>
+            </article>
+
+            <article>
+               <h3>DAY: Applying Shashed changes</h3>
+               <p></p>
+            </article>
 
          </section> <!-- Section for git ends here -->
-
-         <section> <!-- Section for github starts here-->
-
-            <h2>This Section Covers GitHub</h2>
-
-            <article>
-            <h3>Basics of Git Hub page</h3>
-            <p>Creating Repo : </p>
-            </article>
-
-            <article>
-               <h3>Already have a project on computer</h3>
-               <p>Created repo abc (same name as on computer) on the git hub and do not initialize it</p>
-               <p>With Git Installed:
-               <p>Go to the folder</p>
-               <p class="code">git Init</p>
-               <p class="code">git add .</p>
-               <p class="code">git commit -m "first commit"</p>
-               <p>git remote add anyNameYouWantToGiveToRepo(nickname) url(github that was created , in this case abc )</p>
-               <p>git remote add origin url : Alternate command</p>
-               <p>Put github name and password</p>
-               <p>git push -u nicknameAddedPreviously branchname</p>
-               <p>git push -u origin master</p>
-            </article>
-
-            <article>
-               <h3>Already have a project on github</h3>
-               <p>git clone url(copy from github) </p>
-               <p>git clone url(copy from github) folderName : will clone in the folderName provided</p>
-               <p>git init : in case it is not initialized on github</p>
-            </article>
-
-            <article>
-               <h3>Pushing to github after commited </h3>
-               <p class="code">git remote: checks name of remote, default is origin</p>
-               <p class="code">git remote -v: checks name of remote, also provides Url for the same</p>
-               <p class="code"> git push origin master/BranchName</p>
-            </article>
-
-            <article>
-               <h3>Pull change from github</h3>
-               <p>git pull</p>
-            </article>
-
-            <article>
-               <h3>Changing Name of the remote</h3>
-            </article>
-
-            <article>
-               <h3>Create branch or push new branch on github</h3>
-               <p>git push origin Branchname</p>
-            </article>
-
-             <article>
-               <h3>Delete branch on github</h3>
-               <p> git push origin --delete branchName</p>
-            </article>
-
-         </section><!-- Section for github ends here  -->
-
-         <section> <!-- Section for github collabaration starts here-->
-            <h2>This Section Covers GitHub Collabarations</h2>
-
-            <article>
-            <h3>Working with someones repo</h3>
-            <p>Fork repo</p>
-            </article>
-
-            <article>
-            <h3>Working on someones repo</h3>
-            <p>Fork repo</p>
-            <p class="code">git clone url(ur own forked copy)</p>
-            <p> Make changes + add/delete + commit + push</p>
-            <p>Create Pull request from the github</p>
-            </article>
-
-            <article>
-               <h3>Add 'upstream' repo to list of remotes</h3>
-               <p class="code">git remote -v : check if any upstream</p>
-               <p class="code">git remote add upstream https://github.com/UPSTREAM-USER/ORIGINAL-PROJECT.git</p>
-               <p class="code">git remote -v : check if any upstream</p>
-            </article>
-
-            <article>
-               <h3>View all branches</h3>
-                  <p class="code">git branch -va</p>
-            </article>
-
-            <article>
-               <h3>Fetching from upstream</h3>
-               <p class="code">git fetch upstream</p>
-            </article>
-
-            <article>
-               <h3>Merge Master from upstream</h3>
-               <p class="code">git checkout master</p>
-               <p class="code">git merge upstream/master</p>
-            </article>
-
-            <article>
-            <h3>Pulling changes from Upstream to your forked copy</h3>
-            <p> http://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository</p>
-            </article>
-
-
-         </section><!-- Section for github collabaration ends here  -->
-
-         <section> <!-- Section for git and github monitering for absolute integrity starts here-->
-            <h2>This Section Covers Git and github monitering</h2>
-
-            <article>
-            <h3>Lorem ipsum dolor sit amet.</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, debitis!</p>
-            </article>
-
-
-
-         </section> <!-- Section for git and github monitering for absolute integrity ends here-->
 
          <footer>
                <p>Copyright violaters will be shot! not sure though</p>
