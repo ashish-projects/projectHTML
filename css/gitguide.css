@@ -41,6 +41,10 @@ color: white;
 .main-heading {
    margin-top: 50px;
 }
+.inner-list {
+   list-style: none;
+   padding : 5px;
+}
 nav  {
    text-align: center;
    height: 50px;
