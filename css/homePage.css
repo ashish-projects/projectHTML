@@ -25,7 +25,7 @@ color: #00308F		;
 a:hover {
 color:#008000;
 text-decoration:none;
- text-shadow: 2px 2px black;
+text-shadow: 2px 2px black;
 }
 
 
@@ -491,6 +491,10 @@ left:89%;
 	.txt {
 		font-size : 9px;
 	}
+		#logoImage {
+	    width: 60px;
+	    height: 60px;
+			}
 }
 
 @media only screen and (max-width:426px) and (min-device-width: 321px) {
@@ -500,6 +504,10 @@ left:89%;
 	.txt {
 		font-size : 10.5px;
 	}
+		#logoImage {
+	    width: 60px;
+	    height: 60px;
+			}
 }
 @media only screen and (max-width:604px) and (min-width: 426px) {
 		.desc {
@@ -508,6 +516,10 @@ left:89%;
 	.txt {
 		font-size : 10px;
 	}
+		#logoImage {
+	    width: 55px;
+	    height: 55px;
+			}
 }
 
 @media only screen and (max-width:790px) and (min-width: 605px) {
@@ -569,6 +581,10 @@ left:89%;
 	.txt {
 		font-size : 15px;
 	}
+		#logoImage {
+	    width: 60px;
+	    height: 60px;
+			}
 }
 
 @media only screen and (max-width:1920px) and (min-width:1024px) {
@@ -578,4 +594,5 @@ left:89%;
 	.txt {
 		font-size : 17px;
 	}
+
 }
