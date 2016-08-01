@@ -238,9 +238,8 @@ width: 70%;
 .desc {
 display: block;
 position: absolute;
-top: 20%;
+top: 15%;
 left: 0%;
-height: 60%;
 width: 100%;
 }
 
@@ -485,27 +484,41 @@ left:89%;
 
 /*===================css for footer ends here====================================*/
 
-@media screen and (min-width: 600px)
-{
+@media only screen and (max-width:321px) and (min-device-width: 0px) {
 	.desc {
+		font-size : 9px;
+		}
+	.txt {
+		font-size : 9px;
+	}
+}
+
+@media only screen and (max-width:426px) and (min-device-width: 321px) {
+	.desc {
+		font-size : 10.5px;
+		}
+	.txt {
+		font-size : 10.5px;
+	}
+}
+@media only screen and (max-width:604px) and (min-width: 426px) {
+		.desc {
 		font-size : 10px;
 		}
 	.txt {
 		font-size : 10px;
 	}
-
 }
 
-@media screen and (max-width: 600px)
-{
+@media only screen and (max-width:790px) and (min-width: 605px) {
 
-		.html_heading{
+	.html_heading{
 		font-size: 15px;
 		}
 
     .desc
     {
-        font-size:11px;
+        font-size:10px;
      }
      .html{
 			font-size: 15px;
@@ -539,13 +552,30 @@ left:89%;
 		font-size: 15px;
 		}
 		.txt {
-		font-size: 15px;
+		font-size: 13px;
 		}
 
 	#logoImage {
     width: 60px;
     height: 60px;
+		}
 }
 
 
+@media only screen and (max-width:1024px) and (min-width:790px) {
+	.desc {
+		font-size : 15px;
+		}
+	.txt {
+		font-size : 15px;
+	}
+}
+
+@media only screen and (max-width:1920px) and (min-width:1024px) {
+	.desc {
+		font-size : 17px;
+		}
+	.txt {
+		font-size : 17px;
+	}
 }
