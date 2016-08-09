@@ -214,9 +214,16 @@ left:30%;
 height: 100%;
 text-align: left;
 width: 70%;
-display: table;
+display: block;
 }
 
+.author-desc:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -0.25em; /* Adjusts for spacing */
+}
 
 .project-heading {
 position: absolute;
@@ -237,10 +244,18 @@ width: 70%;
 display: table ;
 }
 
+.project-desc:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -0.25em; /* Adjusts for spacing */
+}
+
 .desc {
- display: table-cell;
- vertical-align: middle;
- height: 100%;
+	display: inline-block;
+  vertical-align: middle;
+  width: 100%;
 }
 
 .txt {

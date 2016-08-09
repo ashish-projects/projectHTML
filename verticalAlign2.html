@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Vertical align 2</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="author" href="humans.txt">
+        <style>
+					/* This parent can be any width and height */
+					.block {
+					text-align: center;
+  background: #c0c0c0;
+  border: #a0a0a0 solid 1px;
+  margin: 20px;
+					}
+
+					/* The ghost, nudged to maintain perfect centering */
+					.block:before {
+					 content: '\200B';
+/*   content: '';
+  margin-left: -0.25em; */
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+					}
+
+					/* The element to be centered, can also be of any width and height */
+					.centered {
+					display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+  padding: 10px 15px;
+  border: #a0a0a0 solid 1px;
+  background: #f5f5f5;
+					}
+        </style>
+    </head>
+   <body lang="en">
+
+		<div class="block" style="height: 300px;">
+				<div class="centered">
+						<h1>Some text</h1>
+						<p>But he stole up to us again, and suddenly clapping his hand on my shoulder, said&mdash;"Did ye see anything looking like men going towards that ship a while ago?"</p>
+				</div>
+		</div>
+
+		<div class="block" style="height: 200px;">
+				<div class="centered">
+				<h1>Some text</h1>
+				<p>But he stole up to us again, and suddenly clapping his hand on my shoulder, said&mdash;"Did ye see anything looking like men going towards that ship a while ago?"</p>
+				</div>
+		</div>
+
+		<div class="block" style="height: 600px;">
+				<div class="centered">
+				<h1>Some text</h1>
+				<p>But he stole up to us again, and suddenly clapping his hand on my shoulder, said&mdash;"Did ye see anything looking like men going towards that ship a while ago?"</p>
+				</div>
+		</div>
+
+        <a href="https://css-tricks.com/centering-in-the-unknown/">Source</a>
+        <script src="js/main.js"></script>
+    </body>
+</html>
