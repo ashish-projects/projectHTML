@@ -10,12 +10,12 @@
 
 	*/
 -->
-<!doctype html>
+<!DOCTYPE html>
 <html>
    <head>
          <meta charset="utf-8">
          <title>HTML project1</title>
-         <link rel="stylesheet" href="css/homePage.css?91">
+         <link rel="stylesheet" href="css/homePage.css?55">
          <meta name="viewport" content="width=device-width, initial-scale=1">
    </head>
    <body>
@@ -26,8 +26,8 @@
                <div id="nav">
               		<ul>
               			<li><span class="navElement_span"><a href="">Home</a></span></li>
-              			<li><span class="navElement_span"><a href="">About</a></span></li>
-              			<li><span class="navElement_span"><a href="">Blog</a></span></li>
+              			<li><span class="navElement_span"><a href="">Alpha</a></span></li>
+              			<li><span class="navElement_span"><a href="html-blogs.html">Blogs</a></span></li>
               			<li><span class="navElement_span"><a href="">Contact</a></span></li>
               		</ul>
                </div>
@@ -52,7 +52,7 @@
                <div class="html_heading">HTML: Building Blocks</div>
                <div class="html_index">
                   <ol class="html-list">
-                     <li class="list-elements"><a class="index-items" href="">Basic Elements</a></li>
+                     <li class="list-elements"><a class="index-items" href="basic-html-elements.html">Basic Elements</a></li>
                      <li class="list-elements"><a class="index-items" href="">Lists</a></li>
                      <li class="list-elements"><a class="index-items" href="">Tables</a></li>
                      <li class="list-elements"><a class="index-items" href="">Forms</a></li>
@@ -96,14 +96,19 @@
                 <div class="html_heading">latest on web design!</div>
                 <div class="html_news">
 
-                     <div class="news-list1"> <h2>Meet the “Unicorn”</h2>
-                     What started out as a joke in the industry—the designer/developer hybrid who can do it all—is now a viable endgame for both web designers and front-end developers, thanks to the increase in availability of educational resources across the web. Those developers/designers who have a good grasp of skills across both sides of the spectrum are highly sought after in the industry....<a class="more-news" href="">more</a>
-                     </div>
-                     <div class="news-list2">The future of SEO and Web Design
-                     We can’t predict what new technology will be invented, however we can take into account what technology is already in development and we can design and optimize websites with this in mind.  A lot of this is about designing for user-experience.  As Google gets smarter, it will more closely mimic a human being, so think first about people and second about machines.....<a class="more-news" href="">more</a>
-                     </div>
-                     <div class="news-page-link"><a class="more-news" href="">News Section </a></div>
+                     <div class="news-list1">
+                       <p>What started out as a joke in the industry—the designer/developer hybrid who can do it all—is now a viable endgame for both web designers and front-end developers, thanks to the increase in availability of educational resources across the web. Those developers/designers who have a good grasp of skills across both sides of the spectrum are highly sought after in the industry....</p><br />
+                       <p> The future of SEO and Web Design
+                       We can’t predict what new technology will be invented, however we can take into account what technology is already in development and we can design and optimize websites with this in mind.  A lot of this is about designing for user-experience.  As Google gets smarter, it will more closely mimic a human being, so think first about people and second about machines.....</p><br />
+                       <p>Crayon is one of those sites that, once you discover it, you’ll wonder how you ever managed without it. One of the most comprehensive visual inspiration sites on the Web, Crayon.co is invaluable to marketers, designers, and developers hoping to spark an idea for their next venture or see what’s hot in the world of web design.
+                        </p><br />
+                        <p>The web design examples featured on siteInspire are truly impressive. Seriously, this site focuses on truly beautiful designs, and includes examples from small boutique businesses and major brands alike. It’s also a genuine pleasure to use, as the site itself is arguably as appealing and intuitive as the examples it features.
+                        </p><br/>
+                        <p>The Best Designs is a website dedicated to highlighting not only exciting and daring web design work, but also the designers themselves. Similarly to Dribbble, you can find the contact info and online portfolios of designers featured in The Best Designs, which is a great help if you like the look of a designer’s work and want to hire them.
+                        Read more at http://www.business2community.com/web-design/website-design-inspiration-8-sites-spark-creativity-01591133#Fd9wkIwKLIBfagdP.99</p><br /><br />
+                        <p><a href="news.html">More New</a></p>
 
+                     </div>
                 </div>
             </div> <!-- section 4 div ends here -->
             <div class="section section5">
@@ -111,16 +116,15 @@
                  <div class="html_heading news-heading">Join and Spread the word</div>
 
                  <div class="contact-me">
-                     <form  action="contact.php" method="post"><br />
-                        <input class="input-box" type="text" name="name" placeholder="your name"  /><br />
-                        <input class="input-box" type="text" name="email" placeholder="your email"  /><br />
-                        <input class="input-box" type="text" name="subject" placeholder="subject"  /><br />
-                        <div class="input-area">
-                           Type your message here...
-                        </div><br />
+                     <form  action="contact.php" method="post"><br /><br />
+                        <input class="input-box" type="text" name="name" placeholder="your name" size="50" maxlength="15" /><br /><br />
+                        <input class="input-box" type="text" name="email" placeholder="your email" size="50" maxlength="15" /><br /><br />
+                        <input class="input-box" type="text" name="subject" placeholder="subject" size="50" maxlength="15"  /><br /><br />
+                        <textarea  rows="8" cols="70" >
+                        </textarea><br /><br />
                         <input class="input-submit" type="submit" name="submit" />
                      </form>
-               </div>
+                  </div>
 
                   <a href="">  <img class="social-icon twitter-image" src="images/twitter.png" alt="twitter image"></a>
                   <a href=""> <img class="social-icon facebook-image" src="images/facebook.png" alt="facebook image"></a>

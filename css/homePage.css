@@ -25,7 +25,7 @@ color: #00308F		;
 a:hover {
 color:#008000;
 text-decoration:none;
- text-shadow: 2px 2px black;
+text-shadow: 2px 2px black;
 }
 
 
@@ -44,9 +44,8 @@ overflow-x:hidden;
 }
 
 .wrapper {
-position: absolute;
+position: relative;
 top: 0;
-left: 10%;
 width: 80%;
 margin: 0 auto;
 height: 100%;
@@ -62,6 +61,7 @@ width:  100%;
 	position:relative;
 	height:100%;
 	width: 100%;
+	border: 1px solid grey;
 }
 
 
@@ -112,7 +112,6 @@ background-color:#B2BEB5;
 position: absolute;
 height: 100%;
 width: 100%;
-opacity: 0.9;
 filter: alpha(opacity=0.9);
 object-fit: cover;
 }
@@ -120,7 +119,7 @@ object-fit: cover;
 #logoImage {
 height: 14%;
 position: absolute;
-top: 0;
+top: 2%;
 left: 2%;
 opacity: 1;
 filter: alpha(opacity=1);    /* For IE8 and earlier */
@@ -173,7 +172,8 @@ width: 90%;
 border-radius: 15px;
 height: 77%;
 background-color:#F2F0E6;
-font-size: 1vw;
+font-size: 20px;
+line-height: 27px;
 }
 
 .author-info {
@@ -203,7 +203,7 @@ top: 0px;
 left: 0px;
 width:30%;
 height: 100%;
-
+display: table;
 }
 
 
@@ -214,8 +214,16 @@ left:30%;
 height: 100%;
 text-align: left;
 width: 70%;
+display: block;
 }
 
+.author-desc:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -0.25em; /* Adjusts for spacing */
+}
 
 .project-heading {
 position: absolute;
@@ -224,7 +232,7 @@ left: 0px;
 width:30%;
 height: 100%;
 text-align: left;
-
+display:table;
 }
 
 .project-desc {
@@ -233,25 +241,27 @@ top: 0px;
 left:30%;
 height: 100%;
 width: 70%;
+display: table ;
+}
+
+.project-desc:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -0.25em; /* Adjusts for spacing */
 }
 
 .desc {
-display: block;
-position: absolute;
-top: 20%;
-left: 0%;
-height: 60%;
-width: 100%;
+	display: inline-block;
+  vertical-align: middle;
+  width: 100%;
 }
 
 .txt {
-	display: inline-block;
-	position: absolute;
-	top: 40%;
-	left: 15%;
-	height: 60%;
-	width: 60%;
-	text-align: center;
+	 display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
 
 
@@ -264,13 +274,10 @@ width: 100%;
 
 .html_heading {
 	position: absolute;
-	top: 0%;
-	left: 50%;
-	font-size: 3vw;
+	font-size: 40px;
 	color: #00308F;
-	transform: translate(-50%);
-	width: 67%;
-
+	width: 100%;
+	text-align: center;
 }
 
 .html_index {
@@ -334,54 +341,30 @@ height: 100%;
 /*===================css for section4 starts here NEWS====================================*/
 
 
-.html-news {
+.html_news {
 	position: absolute;
-	font-size: 2vw;
+	font-size: 20px;
 	top:12%;
 	left: 3%;
 	color: #00308F;
 	height: 85%;
-	width: 100%;
+	width: 95%;
 	overflow: hidden;
 	font-family: arial;
-	border: 5px solid red;
+	display: table;
 }
 
 .news-list1{
-	position: absolute;
-	font-size: 2vw;
-	top:10%;
-	left: 7%;
+	font-size: 20px;
 	font-family: arial;
 	color: #00308F;
-	height: 35%;
+	display:table-cell;
+	vertical-align: middle;
 }
 
-.news-list2 {
-	position: absolute;
-	font-size: 2vw;
-	top:50%;
-	left: 7%;
-	font-family: arial;
-	color:#00308F;
-	height:35%;
+.news-list1  p {
+line-height: 26px;
 }
-
-.news-page-link {
-	position: absolute;
-	top: 90%;
-	left: 90%;
-	height: 10%;
-}
-
-.more-news {
-font-size: 1vw;
-font-weight: bold;
-cursor: pointer;
-}
-
-
-
 
 /*===================css for section4 ends here====================================*/
 
@@ -390,13 +373,10 @@ cursor: pointer;
 
 
 .news-heading {
-
 	 color:  #00308F;
-
 }
 
 .section5 {
-
 	border: 1px solid grey;
 }
 
@@ -417,17 +397,18 @@ form {
 
 .input-box {
 border: 1px solid grey;
-width: 100%;
+height: 30px;
+padding: 5px;
 }
 
-.input-area {
-width: 100%;
-height: 40%;
-border: 2px solid grey;
-color: grey;
+textarea {
+  border: 1px solid #cccccc;
 }
 
 .input-submit {
+	height: 45px;
+	width: 100px;
+	border: 1px solid grey;
 
 }
 .social-icon {
@@ -485,27 +466,53 @@ left:89%;
 
 /*===================css for footer ends here====================================*/
 
-@media screen and (min-width: 600px)
-{
+/*@media only screen and (max-width:321px) and (min-device-width: 0px) {
 	.desc {
+		font-size : 9px;
+		}
+	.txt {
+		font-size : 9px;
+	}
+		#logoImage {
+	    width: 60px;
+	    height: 60px;
+			}
+}
+
+@media only screen and (max-width:426px) and (min-device-width: 321px) {
+	.desc {
+		font-size : 10.5px;
+		}
+	.txt {
+		font-size : 10.5px;
+	}
+		#logoImage {
+	    width: 60px;
+	    height: 60px;
+			}
+}
+@media only screen and (max-width:604px) and (min-width: 426px) {
+		.desc {
 		font-size : 10px;
 		}
 	.txt {
 		font-size : 10px;
 	}
-
+		#logoImage {
+	    width: 55px;
+	    height: 55px;
+			}
 }
 
-@media screen and (max-width: 600px)
-{
+@media only screen and (max-width:790px) and (min-width: 605px) {
 
-		.html_heading{
+	.html_heading{
 		font-size: 15px;
 		}
 
     .desc
     {
-        font-size:11px;
+        font-size:10px;
      }
      .html{
 			font-size: 15px;
@@ -539,13 +546,36 @@ left:89%;
 		font-size: 15px;
 		}
 		.txt {
-		font-size: 15px;
+		font-size: 13px;
 		}
 
 	#logoImage {
     width: 60px;
     height: 60px;
+		}
 }
 
 
+@media only screen and (max-width:1024px) and (min-width:790px) {
+	.desc {
+		font-size : 15px;
+		}
+	.txt {
+		font-size : 15px;
+	}
+		#logoImage {
+	    width: 60px;
+	    height: 60px;
+			}
 }
+
+@media only screen and (max-width:1920px) and (min-width:1024px) {
+	.desc {
+		font-size : 17px;
+		}
+	.txt {
+		font-size : 17px;
+	}
+
+}
+*/
