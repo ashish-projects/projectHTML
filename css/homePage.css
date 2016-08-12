@@ -467,7 +467,7 @@ left:89%;
 
 /*===================css for footer ends here====================================*/
 
-@media only screen and (max-width:320px) and (min-device-width: 0px) {
+/* @media only screen and (max-width:0px) and (min-width:319px) {
 	.desc {
 		font-size : 9px;
 		}
@@ -478,84 +478,88 @@ left:89%;
 	    width: 60px;
 	    height: 60px;
 			}
+}
+*/
+
+@media only screen and (max-width:481px) and (min-width:320px) {
+	.desc {
+		font-size : 9px;
+		}
+	.txt {
+		font-size : 9px;
+	}
+		.textarea {
+		width:  100%;
+	}
+	.input-box{
+		width:  100%;
+	}
+	.navElement_span {
+		font-size: 10px;
+	}
+
 }
 
-@media only screen and (max-width:768px) and (min-device-width: 319px) {
+@media only screen and (max-width:599px) and (min-width: 480px) {
 	.desc {
-		font-size : 10.5px;
+		font-size : 11px;
 		}
 	.txt {
-		font-size : 10.5px;
+		font-size : 11px;
 	}
-		#logoImage {
-	    width: 60px;
-	    height: 60px;
-			}
+	.news-list1 {
+		font-size: 14px;
+		line-height: 16px;
+	}
+	.navElement_span {
+		font-size: 16px;
+	}
+	.textarea {
+		width:  100%;
+	}
+	.input-box{
+		width:  100%;
+	}
 }
-@media only screen and (max-width:800px) and (min-width: 767px) {
-		.desc {
-		font-size : 10px;
+
+ @media only screen and (max-width:800px) and (min-width: 600px) {
+.desc {
+		font-size : 12px;
 		}
 	.txt {
-		font-size : 10px;
+		font-size : 12px;
 	}
-		#logoImage {
-	    width: 55px;
-	    height: 55px;
-			}
+	.news-list1 {
+		font-size: 11px;
+	}
+	.navElement_span {
+		font-size: 24px;
+	}
+	.textarea {
+		width:  100%;
+	}
 }
 
 
 
 @media only screen and (max-width:979px) and (min-width: 799px) {
 
-	.html_heading{
-		font-size: 15px;
+	.desc {
+		font-size : 15px;
 		}
+	.txt {
+		font-size : 15px;
+	}
+	.news-list1 {
+		font-size: 12px;
+	}
+	.navElement_span {
+		font-size: 26px;
+	}
+	.textarea {
+		width:  100%;
+	}
 
-    .desc
-    {
-        font-size:10px;
-     }
-     .html{
-			font-size: 15px;
-     }
-     .html_index {
-			font-size: 15px;
-     }
-     .html_list {
-			font-size: 15px;
-     }
-     .index-items {
-			font-size: 15px;
-     }
-     .html-news {
-			font-size: 15px;
-		}
-
-		.news-list1{
-			font-size: 13px;
-		}
-
-		.news-list2 {
-			font-size: 13px;
-		}
-
-		.news-page-link {
-			font-size: 15px;
-		}
-
-		.more-news {
-		font-size: 15px;
-		}
-		.txt {
-		font-size: 13px;
-		}
-
-	#logoImage {
-    width: 60px;
-    height: 60px;
-		}
 }
 
 
@@ -566,7 +570,12 @@ left:89%;
 	.txt {
 		font-size : 15px;
 	}
-
+	.news-list1 {
+		font-size: 15px;
+	}
+	.navElement_span {
+		font-size: 40px;
+	}
 }
 
 
@@ -585,3 +594,5 @@ left:89%;
 	}
 
 }
+
+
