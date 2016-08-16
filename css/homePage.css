@@ -206,6 +206,13 @@ height: 100%;
 display: block;
 }
 
+.author-heading:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+}
 
 
 
@@ -218,6 +225,7 @@ text-align: left;
 width: 68%;
 display: block;
 padding: 0 1%;
+overflow: scroll;
 }
 
 .author-desc:before {
@@ -238,6 +246,14 @@ text-align: left;
 display:block;
 }
 
+.project-heading:before {
+	 content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+}
+
 .project-desc {
 position: absolute;
 top: 0px;
@@ -246,6 +262,7 @@ height: 100%;
 width: 68%;
 display: block ;
 padding: 1%;
+overflow: scroll ;
 }
 
 .project-desc:before {
@@ -260,14 +277,14 @@ padding: 1%;
 	display: inline-block;
   vertical-align: middle;
   width: 100%;
+  padding: 2%;
 }
 
 .txt {
-	 display: inline;
-    text-align: center;
-    position: absolute;
-    top: 48%;
-    left: 20%;
+	     display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    padding: 10%;
 }
 
 
@@ -355,7 +372,7 @@ height: 100%;
 	color: #00308F;
 	height: 85%;
 	width: 95%;
-	overflow: hidden;
+	overflow: scroll;
 	font-family: arial;
 	display: block;
 }
@@ -390,7 +407,7 @@ form {
 
 .contact-me {
 	position: absolute;
-	top: 15%;
+	top: 7%;
 	left: 10%;
 	width: 75%;
 	height: 60%;
@@ -398,12 +415,13 @@ form {
 
 .input-box {
 border: 1px solid grey;
-height: 30px;
+height: 15%;
 padding: 5px;
 }
 
 textarea {
   border: 1px solid #cccccc;
+  height: 20%;
 }
 
 .input-submit {
@@ -467,26 +485,51 @@ left:89%;
 
 /*===================css for footer ends here====================================*/
 
-/* @media only screen and (max-width:0px) and (min-width:319px) {
+ @media only screen and (max-width:319px) and (min-width:0px) {
 	.desc {
-		font-size : 9px;
+		font-size: 12px;
+		line-height: 10px;
 		}
 	.txt {
-		font-size : 9px;
+		font-size : 14px;
 	}
-		#logoImage {
-	    width: 60px;
-	    height: 60px;
-			}
-}
-*/
+	.html_heading {
+			font-size: 17px;
+		}
+	.news-list1 {
+		font-size: 14px;
+		line-height: 10px;
+	}
+	.textarea {
+		width:  100%;
+	}
+	.input-box{
+		width:  100%;
+	}
+	.navElement_span {
+		font-size: 10px;
+	}
+	.html-list {
+	font-size: 17px;
+	}
 
-@media only screen and (max-width:481px) and (min-width:320px) {
+}
+
+
+@media only screen and (max-width:479px) and (min-width:320px) {
 	.desc {
-		font-size : 9px;
+		font-size : 12px;
+		line-height:13px;
 		}
 	.txt {
-		font-size : 9px;
+		font-size : 15px;
+	}
+	.html_heading {
+			font-size: 20px;
+		}
+	.news-list1 {
+		font-size: 14px;
+		line-height: 14px;
 	}
 		.textarea {
 		width:  100%;
@@ -497,15 +540,31 @@ left:89%;
 	.navElement_span {
 		font-size: 10px;
 	}
+	.textarea {
+		width:  100%;
+	}
+	.input-box{
+		width:  100%;
+	}
+	.html-list {
+	font-size: 17px;
+	}
+	#logoImage {
+		width:19%;
+	}
 
 }
 
 @media only screen and (max-width:599px) and (min-width: 480px) {
 	.desc {
-		font-size : 11px;
+		font-size : 15px;
+		line-height:15px;
+		}
+		.html_heading {
+			font-size: 30px;
 		}
 	.txt {
-		font-size : 11px;
+		font-size : 19px;
 	}
 	.news-list1 {
 		font-size: 14px;
@@ -520,23 +579,37 @@ left:89%;
 	.input-box{
 		width:  100%;
 	}
+	.html-list {
+	font-size: 16px;
+	}
 }
 
  @media only screen and (max-width:800px) and (min-width: 600px) {
 .desc {
-		font-size : 12px;
+		font-size: 17px;
+		line-height: 17px;
 		}
 	.txt {
-		font-size : 12px;
+		font-size : 18px;
 	}
 	.news-list1 {
-		font-size: 11px;
+		font-size: 12px;
+		line-height:19px ;
 	}
 	.navElement_span {
 		font-size: 24px;
 	}
 	.textarea {
 		width:  100%;
+	}
+	.input-box{
+		width:  100%;
+	}
+	.html-list {
+	font-size: 17px;
+	}
+	#logoImage {
+	width :19%;
 	}
 }
 
@@ -545,18 +618,23 @@ left:89%;
 @media only screen and (max-width:979px) and (min-width: 799px) {
 
 	.desc {
-		font-size : 15px;
+		font-size: 17px;
+		line-height: 20px;
 		}
 	.txt {
-		font-size : 15px;
+		font-size: 25px;
 	}
 	.news-list1 {
-		font-size: 12px;
+		font-size: 14px;
+		line-height: 20px;
 	}
 	.navElement_span {
 		font-size: 26px;
 	}
 	.textarea {
+		width:  100%;
+	}
+	.input-box{
 		width:  100%;
 	}
 
@@ -565,16 +643,24 @@ left:89%;
 
 @media only screen and (max-width:1280px) and (min-width:980px) {
 	.desc {
-		font-size : 15px;
+		font-size: 20px;
+		line-height: 20px;
 		}
 	.txt {
-		font-size : 15px;
+		font-size: 20px;
 	}
 	.news-list1 {
-		font-size: 15px;
+		font-size: 17px;
+		line-height:20px;
 	}
 	.navElement_span {
 		font-size: 40px;
+	}
+	.textarea {
+		width:  100%;
+	}
+	.input-box{
+		width:  100%;
 	}
 }
 
@@ -582,7 +668,7 @@ left:89%;
 @media only screen and (max-width:1920px) and (min-width:1279px) {
 	.desc {
 		font-size : 20px;
-		}
+	}
 	.txt {
 		font-size : 20px;
 	}
@@ -590,7 +676,13 @@ left:89%;
 		font-size: 20px;
 	}
 	.news-list1 {
-		font-size: 20px;
+		font-size: 17px;
+	}
+	.textarea {
+		width:  100%;
+	}
+	.input-box{
+		width:  100%;
 	}
 
 }

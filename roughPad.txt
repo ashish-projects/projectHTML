@@ -8,3 +8,77 @@ html_index
 html-list
 list-elements
 index-items
+
+html tags
+
+
+
+
+Doctype: <!DOCTYPE html>
+meta tags:
+         <title></title>
+         <meta charset="UTF-8">
+
+html tag : <html></html>
+head: <head></head>
+body: <body></body>
+horizontal rule: <hr>
+line break: <br />
+paragraph : <p></p>
+headings: <h1></h1> to <h6></h6>
+pre : <pre></pre>
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Small text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+<q></q> -quotes
+<blockquote></blockquote> -blockquote
+<abbr></abbr> -abbrivation
+<address></address> -address
+<cite></cite> -citation
+<bdo></bdo> -bidirectional override
+<code></code> - code
+<kbd></kbd> - key board
+<samp></samp> -samp
+<var></var> -variable
+comments: <!-- Write your comments here -->
+<!--[if IE 8]>
+    .... some HTML here ....
+<![endif]-->
+colors
+
+css:
+Inline - by using the style attribute in HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using an external CSS file
+
+links:   <a href="url">link text</a>
+images:  <img src="pic_mountain.jpg" alt="Mountain View" style="width:304px;height:228px;">
+tables:  <table style="width:100%">
+lists :  <ol></ol>
+forms :
+
+block level elements
+inline elements
+iframe
+entities
+encoding:
+url encoding
+
+validation: http://www.w3schools.com/html/demo_xhtml.asp
+
+videos and audios: old way and new way
+
+html5 elements
+shiv javascript
+canvas
+svg
+html5 semantics
+
+ AND THEIR ATTRIBUTS
