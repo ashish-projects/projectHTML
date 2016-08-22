@@ -24,7 +24,7 @@ body {
 }
 
 header {
-   border: 1px solid black;
+   border: 0px solid black;
 }
 
 .header-right {
@@ -63,7 +63,7 @@ header p {
 
 nav {
    clear:both;
-   border: 1px solid black;
+   border: 0px solid black;
 }
 
 nav ol {
@@ -98,7 +98,7 @@ article {
 
 aside {
    width: 30%;
-  float:right;
+   float:right;
    border: 1px solid black;
 }
 
