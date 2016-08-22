@@ -13,15 +13,17 @@ text-decoration:none;
       box-sizing: border-box;
     }
 
+body {
+   width:  100%;
+}
+
 .wrapper {
    border: 1px solid black;
    width: 80%;
-   margin: 0 auto;
-   height: 1084px;
+   margin: 10px  auto;
 }
 
 header {
-   height: 200px;
    border: 1px solid black;
 }
 
@@ -30,7 +32,6 @@ header {
    border: 0px solid black;
    padding: 5px;
    float: left;
-   height: 175px;
 }
 
 header img {
@@ -42,6 +43,8 @@ header img {
 header p {
    margin: 0px;
    padding: 0px 25px;
+   position: absolute;
+   top:  125px;
 }
 
 .header-left {
@@ -49,7 +52,6 @@ header p {
    float: right;
    border: 0px solid green;
    padding: 50px 0px;
-   margin: 15px;
 }
 
 .searchText {
@@ -58,14 +60,10 @@ header p {
 .searchButton {
    margin:5px;
 }
-.class {
-   clear:both;
-}
 
 nav {
    clear:both;
    border: 1px solid black;
-   height: 30px;
 }
 
 nav ol {
@@ -78,7 +76,6 @@ nav li {
    float:left;
    width:25%;
    margin:0px;
-   padding:0px;
    text-align: center;
    background-color: #369 ;
    color: white;
@@ -87,7 +84,6 @@ nav li {
 
 section {
    width: 70%;
-   height: 800px;
    float:left;
    border: 1px solid black;
 
@@ -96,14 +92,13 @@ section {
 article {
    width: 95%;
    height: 780px;
-   background-color: red;
+   background-color: #66cccc;
    margin: 10px auto;
 }
 
 aside {
    width: 30%;
-   height: 800px;
-   float:right;
+  float:right;
    border: 1px solid black;
 }
 
