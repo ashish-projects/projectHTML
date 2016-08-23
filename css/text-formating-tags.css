@@ -1,0 +1,109 @@
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-size: 100%;
+text-decoration:none;
+}
+
+*, *:before, *:after {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+body {
+   width:  100%;
+}
+
+.wrapper {
+   border: 1px solid black;
+   width: 80%;
+   margin: 10px  auto;
+}
+
+header {
+   border: 0px solid black;
+}
+
+.header-right {
+   width: 50%;
+   border: 0px solid black;
+   padding: 5px;
+   float: left;
+}
+
+header img {
+   width: 150px;
+   height: 150px;
+   margin: 0px;
+}
+
+header p {
+   margin: 0px;
+   padding: 0px 25px;
+   position: absolute;
+   top:  125px;
+}
+
+.header-left {
+   width: 30%;
+   float: right;
+   border: 0px solid green;
+   padding: 50px 0px;
+}
+
+.searchText {
+   margin: 5px;
+}
+.searchButton {
+   margin:5px;
+}
+
+nav {
+   clear:both;
+   border: 0px solid black;
+}
+
+nav ol {
+   padding: 0px;
+   margin: 0px;
+}
+
+nav li {
+   list-style-type: none;
+   float:left;
+   width:25%;
+   margin:0px;
+   text-align: center;
+   background-color: #369 ;
+   color: white;
+   padding: 7px 0px;
+}
+
+section {
+   width: 70%;
+   float:left;
+   border: 1px solid black;
+
+}
+
+article {
+   width: 95%;
+   height: 780px;
+   background-color: #66cccc;
+   margin: 10px auto;
+}
+
+aside {
+   width: 30%;
+   float:right;
+   border: 1px solid black;
+}
+
+footer {
+   clear:both;
+   height:50px;
+   border: 1px solid black;
+}
