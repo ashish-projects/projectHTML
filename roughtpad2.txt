@@ -3,15 +3,52 @@ https://developer.mozilla.org/en/docs/Web/HTML/Element
 https://dev.w3.org/html5/html-author/
 
 ==============================================================================================
-==============================================================================================
-Text Formating Tags:
-----------------------------------------------------------------------------------------------
-html tag : <html></html>
+Basic HTML 5  structure with necessary  tags and their explanation
+(basic tags)
+document outline
 
-horizontal rule: <hr>
-line break: <br />
+html     <html></html>
+head:    <head></head>
+title:   <title></title>
+body:    <body></body>
+
+      <!doctypeHTML>
+       <html>
+       <head>
+        <title>website title</title>
+        <base></base>
+        <link>
+        <style></style>
+        <script></script>
+       </head>
+       <body>
+        content of website ...
+       </body>
+      </html>
+
+=============================================================================================
+Comments
+comments: <!-- Write your comments here -->
+
+Special Comments:
+<!--[if IE 8]>
+    .... some HTML here ....
+<![endif]-->
+
+==========================================================================================================section division/document structure
+
+<div></div>
+<span></span>
+<p></p>
+<br />
+<hr />
+====================================================================================================
+Text Formating Tags/text markup
+
 paragraph : <p></p>
 headings: <h1></h1> to <h6></h6>
+horizontal rule: <hr>
+line break: <br />
 pre : <pre></pre>
 <b> - Bold text
 <strong> - Important text
@@ -34,21 +71,34 @@ pre : <pre></pre>
 <samp></samp> -samp
 <var></var> -variable
 
-===========================================================================================================
-===========================================================================================================
-Comments
------------------------------------------------------------------------------------------------------------
-comments: <!-- Write your comments here -->
+=========================================================================================
+Links:
+links:   <a href="url">link text</a>
+======================================================================================
+images and image maps:
+images:  <img src="pic_mountain.jpg" alt="Mountain View" style="width:304px;height:228px;">
+============================================================================
+Tables:
+tables:  <table style="width:100%">
+========================================================
+lists
+lists :  <ol></ol>
+===========================================================
+forms :
 
-Special Comments:
-<!--[if IE 8]>
-    .... some HTML here ....
-<![endif]-->
+=================================================================================
+objects:
+============================================================================
 
-===========================================================================================================
-===========================================================================================================
+empty elements
+==========================================================================
+
+core attributes:
+============================================================================
+frames:
+
+====================================================================================================
 colors
------------------------------------------------------------------------------------------------------------
 
 ===================================================
 Adding CSS
@@ -58,46 +108,32 @@ Inline - by using the style attribute in HTML elements
 Internal - by using a <style> element in the <head> section
 External - by using an external CSS file
 
-links:   <a href="url">link text</a>
-images:  <img src="pic_mountain.jpg" alt="Mountain View" style="width:304px;height:228px;">
-tables:  <table style="width:100%">
-lists :  <ol></ol>
-forms :
+===================================================
 
-block level elements
-inline elements
-iframe
-entities
+=========================================================================
 encoding:
 url encoding
-
+=======================================================================
 Validation:
 validation: http://www.w3schools.com/html/demo_xhtml.asp
-
+=======================================================================
 Videos and audios:
 videos and audios: old way and new way
 
+=======================================================================
 html5
-
 elements
 shiv javascript
 canvas
 svg
 html5 semantics
+=======================================================================
 
 
- Basic HTML structure with necessary merta tags and their explanation
-
- head: <head></head>
-body: <body></body>
-
-       <html>
-       <head>
-        <title>website title</title>
-       </head>
-       <body>
-        content of website ...
-       </body>
-      </html>
-
-
+============================================================
+special characters entities
+=============================================================
+Basic seo
+=============================================================
+flexiable box model
+===============================================================
