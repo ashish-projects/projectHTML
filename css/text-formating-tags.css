@@ -1,9 +1,12 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Condensed';
+
 * {
 margin: 0px;
 padding: 0px;
 box-sizing: border-box;
 font-size: 100%;
 text-decoration:none;
+font-family: 'Roboto Condensed', sans-serif;;
 }
 
 *, *:before, *:after {
@@ -71,6 +74,7 @@ nav ol {
    margin: 0px;
 }
 
+
 nav li {
    list-style-type: none;
    float:left;
@@ -82,6 +86,16 @@ nav li {
    padding: 7px 0px;
 }
 
+li a {
+   color: white;
+   display: block;
+}
+
+a:hover {
+   background-color: white;
+   color: #369 ;
+}
+
 section {
    width: 70%;
    float:left;
@@ -89,17 +103,30 @@ section {
 
 }
 
-article {
+section article {
    width: 95%;
-   height: 780px;
+/*   height: 780px;*/
    background-color: #66cccc;
    margin: 10px auto;
+}
+
+aside article {
+   width: 95%;
+/*   height: 780px;*/
+   background-color: #66cccc;
+   margin: 10px auto;
+}
+
+.html_elements {
+   text-align:center;
+   padding: 5px;
+   font-size: 25px;
 }
 
 aside {
    width: 30%;
    float:right;
-   border: 1px solid black;
+   border: 0px solid black;
 }
 
 footer {

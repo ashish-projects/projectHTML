@@ -35,7 +35,8 @@ Special Comments:
     .... some HTML here ....
 <![endif]-->
 
-==========================================================================================================section division/document structure
+=========================================================================================
+section division/document structure
 
 <div></div>
 <span></span>
@@ -108,8 +109,6 @@ Inline - by using the style attribute in HTML elements
 Internal - by using a <style> element in the <head> section
 External - by using an external CSS file
 
-===================================================
-
 =========================================================================
 encoding:
 url encoding
@@ -127,13 +126,30 @@ shiv javascript
 canvas
 svg
 html5 semantics
+video
+audio
 =======================================================================
 
-
-============================================================
 special characters entities
 =============================================================
 Basic seo
 =============================================================
 flexiable box model
 ===============================================================
+fonts anf font family
+
+===================================================================
+
+html 5 API's
+
+HTML Geolocation
+HTML Drag and Drop
+HTML Local Storage
+HTML Application Cache
+HTML Web Workers
+HTML SSE
+===================================================================
+
+XHTML : free with HTML
+
+===================================================================
