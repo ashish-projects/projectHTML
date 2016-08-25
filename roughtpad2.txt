@@ -46,15 +46,15 @@ section division/document structure
 ====================================================================================================
 Text Formating Tags/text markup
 
-paragraph : <p></p>
-headings: <h1></h1> to <h6></h6>
+paragraph : <p></p>--------------------------
+headings: <h1></h1> to <h6></h6>-----------------------
 horizontal rule: <hr>
 line break: <br />
 pre : <pre></pre>
-<b> - Bold text
-<strong> - Important text
-<i> - Italic text
-<em> - Emphasized text
+<b> - Bold text -----------------------
+<strong> - Important text------------------
+<i> - Italic text---------------
+<em> - Emphasized text--------------------
 <mark> - Marked text
 <small> - Small text
 <del> - Deleted text

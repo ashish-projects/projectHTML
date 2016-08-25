@@ -123,6 +123,28 @@ aside article {
    font-size: 25px;
 }
 
+.element_desc {
+padding: 5px;
+margin:5px;
+}
+
+.code_result {
+   padding: 5px;
+   margin: 5px;
+   border: 1px solid #369;
+}
+
+.code {
+   margin: 5px;
+   padding:5px;
+   background-color: #369;
+}
+
+.result {
+   margin: 5px;
+   padding: 5px;
+}
+
 aside {
    width: 30%;
    float:right;
@@ -134,3 +156,4 @@ footer {
    height:50px;
    border: 1px solid black;
 }
+
