@@ -4,10 +4,11 @@
    <title>HTML Text Formating Tags</title>
    <meta charset="UTF-8">
    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
-   <link rel="stylesheet" type="text/css" href="./css/text-formating-tags.css?999">
+   <link rel="stylesheet" type="text/css" href="./css/text-formating-tags.css?55">
    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+
       <div class="wrapper">
             <header>
                <div class="header-right">
@@ -24,7 +25,7 @@
                   <li><a href="">Alpha</a></li>
                   <li><a href="">Beta</a></li>
                   <li><a href="">Gamma</a></li>
-                  <li><a href="">Theta</a></li>
+                  <li><a href="">About this page!</a></li>
                </ol>
             </nav>
 
@@ -120,16 +121,308 @@
                   </div>
                </article>
 
+                <article> <!-- Seventh article : Emphasis text  -->
+               <h2 class="html_elements">Mark</h2>
+               <div class="element_desc"> Mark: To display highlited text, Equivalent css
+               "background-color" and "span"</div>
+                  <div class="code_result">
+                        <div class="code">
+                           &lt;p&gt;  I am a  &lt;mark&gt;marked&lt;/mark &gt; text &lt;/p &gt;
+                        </div>
+                        <div class="result">
+                           <p> I am a <mark>marked</mark > text </p >
+                        </div>
+                  </div>
+               </article>
+
+         <article> <!-- eighth article : Emphasis text  -->
+                  <h2 class="html_elements">Small</h2>
+                  <div class="element_desc"> Small: To display small text, Equivalent css
+                  "background-color" and "span"
+                  </div>
+                  <div class="code_result">
+                           <div class="code">
+                                    &lt;p&gt;  I am a  &lt;small&gt;small&lt;/small &gt; text &lt;/p &gt;
+                           </div>
+                           <div class="result">
+                                    <p> I am a <small>small</small > text </p >
+                           </div>
+                  </div>
+         </article>
+
+         <article> <!-- Ninth article : Pre text  -->
+                  <h2 class="html_elements">Pre</h2>
+                  <div class="element_desc"> pre: To display preformatted or "as it is" text, Equivalent css
+                     {white-space: pre;font-family: monospace;display: block;unicode-bidi: embed}
+                  </div>
+                  <div class="code_result">
+                           <div class="code">
+                                 &lt;pre&gt;
+                              <pre> <!-- this is exception for pre only -->
+This text is inside pre
+    and can be used for
+         displaying code!
+                              </pre>
+                                  &lt;/pre &gt;
+                           </div>
+                           <div class="result">
+                        <pre>
+This text is inside pre
+    and can be used for
+         displaying code!
+                        </pre >
+                           </div>
+                  </div>
+         </article>
+
+         <article> <!-- tenth article : horizontal rule text  -->
+                  <h2 class="html_elements">hr</h2>
+                  <div class="element_desc"> hr: To display line , Equivalent css
+                     {border-top: 1px solid #8c8b8b;}
+                  </div>
+                  <div class="code_result">
+                           <div class="code">
+                                    &lt;hr/&gt;
+                           </div>
+                           <div class="result">
+                                 <hr/>
+                           </div>
+                  </div>
+         </article>
+
+          <article> <!-- Eleventh article : break  text  -->
+                  <h2 class="html_elements">br</h2>
+                  <div class="element_desc"> br: To create line break , Equivalent css
+                     { content: ' ';display: block;} and "span"
+                  </div>
+                  <div class="code_result">
+                           <div class="code">
+                             &lt;p&gt;   This is a two    &lt;br/&gt; line sentence created with break tag  &lt;/p&gt;
+                           </div>
+                           <div class="result">
+                                 <p> This is a two <br/> line sentence created with break tag </p>
+                           </div>
+                  </div>
+         </article>
+
+         <article> <!-- Twelth article : deleted text  -->
+                  <h2 class="html_elements">del</h2>
+                  <div class="element_desc"> del: To create deleted  look-a-like text, Equivalent css
+                     { text-decoration: line-through;} and "span"
+                  </div>
+                  <div class="code_result">
+                           <div class="code">
+                             &lt;p&gt;   This is a    &lt;del&gt; deleted  &lt;/del&gt;  modified text  &lt;/p&gt;
+                           </div>
+                           <div class="result">
+                                 <p> This is a <del> deleted </del> modified text </p>
+                            </div>
+                  </div>
+         </article>
+
+         <article> <!-- Thirteen article : ins text  -->
+                  <h2 class="html_elements">ins</h2>
+                  <div class="element_desc"> ins: To create inserted   look-a-like text, Equivalent css
+                     { text-decoration: underline ;} and "span"
+                  </div>
+                  <div class="code_result">
+                           <div class="code">
+                             &lt;p&gt;   This is a    &lt;ins&gt; inserted  &lt;/ins&gt;   text  &lt;/p&gt;
+                           </div>
+                           <div class="result">
+                                 <p> This is a <ins> inserted </ins> text </p>
+                            </div>
+                  </div>
+         </article>
+
+           <article> <!-- forteen article : sub text  -->
+                  <h2 class="html_elements">sub</h2>
+                  <div class="element_desc"> sub: To create  subscripted text, Equivalent css
+                     { vertical-align: sub;font-size: smaller;} and "span"
+                  </div>
+                  <div class="code_result">
+                           <div class="code">
+                             &lt;p&gt;   This is a    &lt;sub&gt; subscripted  &lt;/sub&gt;   text  &lt;/p&gt;
+                           </div>
+                           <div class="result">
+                                 <p> This is a <sub> subscripted </sub> text </p>
+                            </div>
+                  </div>
+         </article>
+
+         <article> <!-- fifteen article : sup text  -->
+                  <h2 class="html_elements">sup</h2>
+                  <div class="element_desc"> sup: To create  superscripted text, Equivalent css
+                     { vertical-align: super;font-size: smaller;} and "span"
+                  </div>
+                  <div class="code_result">
+                           <div class="code">
+                             &lt;p&gt;   This is a    &lt;sup&gt; subscripted  &lt;/sup&gt;   text  &lt;/p&gt;
+                           </div>
+                           <div class="result">
+                                 <p> This is a <sup> subscripted </sup> text </p>
+                            </div>
+                  </div>
+         </article>
+
+         <article> <!-- sixteen article : quotes text  -->
+                  <h2 class="html_elements">quotes</h2>
+                  <div class="element_desc"> q: To create  quoted text, Equivalent css
+                        q { display: inline;}q:before { content: open-quote;}q:after { content: close-quote;}
+                  </div>
+                  <div class="code_result">
+                           <div class="code">
+                             &lt;p&gt;   This is a    &lt;q&gt; quoted  &lt;/q&gt;   text  &lt;/p&gt;
+                           </div>
+                           <div class="result">
+                                 <p> This is a <q> quoted </q> text </p>
+                            </div>
+                  </div>
+         </article>
+
+         <article> <!-- seventeen article : blockquote text  -->
+                  <h2 class="html_elements">blockquote</h2>
+                  <div class="element_desc"> q: To create  blockquote text, Equivalent css
+                         {display: block;margin-top: 1em;margin-bottom: 1em;margin-left: 40px;margin-right: 40px;}
+                  </div>
+                  <div class="code_result">
+                           <div class="code">
+                             &lt;p&gt;   This is a    &lt;blockquote cite="www.xyz.com"&gt; blockquote  &lt;/blockquote&gt;   text  &lt;/p&gt;
+                           </div>
+                           <div class="result">
+                                 <p> This is a <blockquote cite="www.xyz.com"> blockquote </blockquote> text </p>
+                            </div>
+                  </div>
+         </article>
+
+         <article> <!-- abbrevation article : abbrivation text  -->
+                  <h2 class="html_elements">abbrevation</h2>
+                  <div class="element_desc"> abbr: To create  abbrevation text, Equivalent css
+                         none
+                  </div>
+                  <div class="code_result">
+                           <div class="code">
+                             &lt;p&gt;   This is a    &lt;abbr title="ATB"&gt; abbrevated  &lt;/abbr&gt;   text, hover over me &lt;/p&gt;
+                           </div>
+                           <div class="result">
+                                 <p> This is a <abbr title="ATB"> abbrevated </abbr> text, hover over me </p>
+                            </div>
+                  </div>
+         </article>
+
+         <article> <!-- address article : abbrivation text  -->
+                  <h2 class="html_elements">address</h2>
+                  <div class="element_desc"> address: To create  address look- text, Equivalent css
+                          {display: block;font-style: italic;}
+                  </div>
+                  <div class="code_result">
+                           <div class="code">
+                             &lt;address&gt;   This is a  mock address &lt;/address&gt;
+                           </div>
+                           <div class="result">
+                                 <address> This is a mock address </address>
+                            </div>
+                  </div>
+         </article>
+
+         <article> <!-- cite article : abbrivation text  -->
+                  <h2 class="html_elements">cite</h2>
+                  <div class="element_desc"> cite: To create  cite look- text, Equivalent css
+                          {font-style: italic;}
+                  </div>
+                  <div class="code_result">
+                           <div class="code">
+                               &lt;p&gt;   This is a    &lt;cite&gt;  cite &lt;/cite&gt;  text &lt;/p&gt;
+                           </div>
+                           <div class="result">
+                                 <p> This is a <cite> cite </cite> text </p>
+                            </div>
+                  </div>
+         </article>
+
+          <article> <!-- code article : abbrivation text  -->
+                  <h2 class="html_elements">code</h2>
+                  <div class="element_desc"> code: To create  code look- text, Equivalent css
+                          { font-family: monospace;}
+                  </div>
+                  <div class="code_result">
+                           <div class="code">
+                               &lt;p&gt;   This is a    &lt;code&gt;  code for computer  &lt;/code&gt;  text &lt;/p&gt;
+                           </div>
+                           <div class="result">
+                                 <p> This is a <code> sample code for computer </code> text </p>
+                            </div>
+                  </div>
+         </article>
+
+            <article> <!-- kbd article : abbrivation text  -->
+                  <h2 class="html_elements">keyboard</h2>
+                  <div class="element_desc"> kbd: To create  code look- text, Equivalent css
+                          { font-family: monospace;}
+                  </div>
+                  <div class="code_result">
+                           <div class="code">
+                               &lt;p&gt;   This is a    &lt;kbd&gt;  computer keyboard  &lt;/kbd&gt;  text &lt;/p&gt;
+                           </div>
+                           <div class="result">
+                                 <p> This is a <kbd> computer keyboard </kbd> text </p>
+                              </div>
+                  </div>
+         </article>
+
+          <article> <!-- sample article : abbrivation text  -->
+                  <h2 class="html_elements">sample</h2>
+                  <div class="element_desc"> samp: To create  code look- text, Equivalent css
+                          { font-family: monospace;}
+                  </div>
+                  <div class="code_result">
+                           <div class="code">
+                               &lt;p&gt;   This is a    &lt;samp&gt;  sample  &lt;/samp&gt;  text &lt;/p&gt;
+                           </div>
+                           <div class="result">
+                                 <p> This is a <samp> sample </samp> text </p>
+                            </div>
+                  </div>
+         </article>
+
+          <article> <!-- variable article : abbrivation text  -->
+                  <h2 class="html_elements">varable</h2>
+                  <div class="element_desc"> var: To create  code look- text, Equivalent css
+                          { font-family: italic;}
+                  </div>
+                  <div class="code_result">
+                           <div class="code">
+                               &lt;p&gt;   This is a    &lt;var&gt;  varable   &lt;/var&gt;  text &lt;/p&gt;
+                           </div>
+                           <div class="result">
+                                 <p> This is a <var> varable </var> text </p>
+                            </div>
+                  </div>
+         </article>
+
+          <article> <!-- BDO article : bdo text  -->
+                  <h2 class="html_elements">Bidirectional Override</h2>
+                  <div class="element_desc"> bdo: To change  text  direction, Equivalent css
+                          { font-family: italic;}
+                  </div>
+                  <div class="code_result">
+                           <div class="code">
+                               &lt;bdo dir="rtl"&gt;   This is a text reversed &lt;/bdo&gt;
+                           </div>
+                           <div class="result">
+                                 <bdo dir="rtl"> This is a text reversed </bdo>
+                   </div>
+                  </div>
+         </article>
+
             </section>
 
             <aside>
                <article>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               <h2>HTML for content, CSS for styling</h2>
+               <p> Almost all the HTML text formatting tags  should be replaced with their css equivalents, as this is the recommended way except for break tag. Currently there are
+                  25 of them, all listed on this page.
+               </p>
                </article>
             </aside>
 

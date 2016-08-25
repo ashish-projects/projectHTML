@@ -5,8 +5,11 @@ margin: 0px;
 padding: 0px;
 box-sizing: border-box;
 font-size: 100%;
-text-decoration:none;
 font-family: 'Roboto Condensed', sans-serif;;
+}
+
+a {
+   text-decoration:none;
 }
 
 *, *:before, *:after {
@@ -110,6 +113,10 @@ section article {
    margin: 10px auto;
 }
 
+.element_desc {
+   text-align: center;
+}
+
 aside article {
    width: 95%;
 /*   height: 780px;*/
@@ -131,13 +138,14 @@ margin:5px;
 .code_result {
    padding: 5px;
    margin: 5px;
-   border: 1px solid #369;
+   border: 0px solid #369;
 }
 
 .code {
    margin: 5px;
    padding:5px;
-   background-color: #369;
+   background-color: white;
+   border-radius: 10px;
 }
 
 .result {
@@ -149,6 +157,17 @@ aside {
    width: 30%;
    float:right;
    border: 0px solid black;
+}
+
+aside p {
+   padding:  5px;
+   margin:  5px;
+}
+
+aside h2 {
+       padding:  5px;
+       margin:  5px;
+       font-weight: bold;
 }
 
 footer {
