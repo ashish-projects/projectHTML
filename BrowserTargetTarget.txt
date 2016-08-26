@@ -1,1 +1,5 @@
 BrowserTargetTarget.txt
+
+We should support as many browsers as possible, without holding back on not using new features of HTML and css.
+
+Please use the below link to find the best way to use website on all legacy browsers!
