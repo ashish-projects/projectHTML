@@ -46,31 +46,31 @@ section division/document structure
 ====================================================================================================
 Text Formating Tags/text markup
 
-paragraph : <p></p>--------------------------
-headings: <h1></h1> to <h6></h6>-----------------------
-horizontal rule: <hr>
-line break: <br />
-pre : <pre></pre>
-<b> - Bold text -----------------------
-<strong> - Important text------------------
-<i> - Italic text---------------
-<em> - Emphasized text--------------------
-<mark> - Marked text
-<small> - Small text
-<del> - Deleted text
-<ins> - Inserted text
-<sub> - Subscript text
-<sup> - Superscript text
-<q></q> -quotes
-<blockquote></blockquote> -blockquote
-<abbr></abbr> -abbrivation
-<address></address> -address
-<cite></cite> -citation
-<bdo></bdo> -bidirectional override
-<code></code> - code
-<kbd></kbd> - key board
-<samp></samp> -samp
-<var></var> -variable
+1. paragraph : <p></p>--------------------------
+2. headings: <h1></h1> to <h6></h6>-----------------------
+3. horizontal rule: <hr>-------------------------
+4. line break: <br />---------------
+5. pre : <pre></pre>------------------
+6. <b> - Bold text -----------------------
+7. <strong> - Important text------------------
+8. <i> - Italic text---------------
+9. <em> - Emphasized text--------------------
+10. <mark> - Marked text------------------
+11. <small> - Small text---------------------
+12. <del> - Deleted text------------
+13. <ins> - Inserted text----------
+14. <sub> - Subscript text--------------
+15. <sup> - Superscript text-----------------
+16. <q></q> -quotes--------------
+17. <blockquote></blockquote> -blockquote----------------
+18. <abbr></abbr> -abbrivation--------------
+19. <address></address> -address--------------
+20. <cite></cite> -citation---------------
+21. <bdo></bdo> -bidirectional override
+22. <code></code> - code------------------
+23. <kbd></kbd> - key board------------------
+24. <samp></samp> -samp---------------------
+25. <var></var> -variable---------------
 
 =========================================================================================
 Links:
@@ -153,3 +153,8 @@ HTML SSE
 XHTML : free with HTML
 
 ===================================================================
+
+Prepare your awesome footer for all info at one place*********
+
+=======================================
+

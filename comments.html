@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>HTML Text Formating Tags</title>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+   <link rel="stylesheet" type="text/css" href="./css/text-formating-tags.css?55">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+      <div class="wrapper">
+            <header>
+               <div class="header-right">
+                  <img src="./images/ashishlogo2.png" />
+                  <p>Web Designer</p>
+               </div>
+               <div class="header-left">
+                  <input type="text" name="searchText" class="searchText">
+                  <input type="submit" name="searchButton" value="search" class="searchButton">
+               </div>
+            </header>
+            <nav>
+               <ol>
+                  <li><a href="">Alpha</a></li>
+                  <li><a href="">Beta</a></li>
+                  <li><a href="">Gamma</a></li>
+                  <li><a href="">About this page!</a></li>
+               </ol>
+            </nav>
+
+            <section>
+
+                <article> <!-- tenth article : horizontal rule text  -->
+                         <h2 class="html_elements">Comments</h2>
+                         <div class="element_desc"> Comments for html
+                         </div>
+                         <div class="code_result">
+                                  <div class="code">
+                                           &lt;!--This is a comment used mostly as an aid to document code  and will not effect code at all , so output will be null--&gt;
+                                  </div>
+                                  <div class="result">
+                                          Only visible on code, not as output.
+                                  </div>
+                         </div>
+                </article>
+
+                 <article> <!-- tenth article : horizontal rule text  -->
+                         <h2 class="html_elements">Comments for IE legacy browser IE5 to IE9</h2>
+                         <div class="element_desc"> Comments for IE: IE has been programmed to recognize the special &lt;!--[if IE]>&gt;syntax, resolves the if and parses the content of the conditional comment as if it were normal page content.
+                         </div>
+                         <div class="code_result">
+                                  <div class="code">
+                                        &lt;!--[if IE 8]&gt;
+                                        some HTML here ....
+                                         &lt;!--[endif]--&gt;
+                                  </div>
+                                  <div class="result">
+                                         <!--[if IE 8] > some HTML here .... <!--[endif]--> Only visible on IE8!
+                                  </div>
+                         </div>
+                </article>
+
+
+            </section>
+
+            <aside>
+               <article>
+               <h2>lorem ipsum is awesome!!</h2>
+               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dignissimos aliquam odio, similique, ullam quisquam, sint, architecto praesentium porro numquam cupiditate. Omnis fugit sed, eos inventore quos quia, quasi quod!
+               </p>
+               </article>
+            </aside>
+
+            <footer>
+            </footer>
+      </div>
+</body>
+</html>
