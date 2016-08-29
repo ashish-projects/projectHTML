@@ -1,0 +1,146 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-size: 100%;
+font-family: "Times New Roman";
+/* font-family: 'Open Sans', sans-serif; */
+
+}
+
+/*For non html5 browser*/
+header, section, footer, aside, nav, main, article, figure {
+display: block;
+}
+
+a {
+   text-decoration:none;
+}
+
+h1 {
+text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #0000FF;
+}
+
+*, *:before, *:after {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+
+.fixed_bar {
+			border-bottom:  1px solid grey;
+			width: 100%;
+			overflow: auto;
+			background-color: #f1f1f1;
+}
+
+.leftsidebar {
+		float: left;
+		width:  70%;
+}
+
+.leftsidebar p {
+		font-size: 18px;
+		padding:  6px;
+		margin:  6px;
+		text-transform: uppercase;
+}
+
+.leftsidebar p a {
+		display:  inline-block;
+		text-transform: uppercase;
+		color: #4e6779;
+		font-weight: bold;
+		font-size: 18px;
+}
+
+.leftsidebar a:hover {
+	color: #0000FF;
+}
+
+.rightsidebar {
+	float: left;
+}
+
+.rightsidebar ul {
+	list-style-type: none;
+    margin: 6px;
+    padding: 6px;
+    width: 200px;
+}
+
+.rightsidebar li {
+	  display: inline-block;
+}
+
+.rightsidebar a {
+    display: block;
+    width: 60px;
+    text-align: center;
+    font-size:  12px;
+    font-family: arial;
+    color: #9a9a9a;
+    text-transform: uppercase;
+    padding: 0 30px 0 10px;
+}
+
+.rightsidebar a:hover {
+	color: #0000FF;
+}
+
+
+nav {
+		clear: both;
+		border-bottom:  1px solid grey;
+		width: 100%;
+		overflow: hidden;
+		background-color: #eeebec;
+}
+
+nav .leftnav {
+	float: left;
+	width:  50%;
+}
+
+nav .rightnav {
+	float: left;
+	width: 50%;
+	margin-top : 5%;
+	border:  0px solid green;
+}
+
+nav ol {
+	list-style-type: none;
+    margin: 6px;
+    padding: 6px;
+}
+
+nav li {
+	display:  inline-block;
+	width: 20%;
+	border: 0px solid grey;
+	text-align: center;
+}
+
+.rightnav a{
+display: block;
+font-size: 18px;
+text-transform: uppercase;
+}
+
+.rightnav a:hover {
+	color: #0000FF;
+}
+
+section h1 {
+	font-size: 30px;
+	color: #0000FF;
+}
