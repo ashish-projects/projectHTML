@@ -1,12 +1,24 @@
+<!--
+	/*
+	*	Title						:	htmllinks page
+	*	Author						:	Ashish Raina
+	*	Date created				:   	26-august-2016
+	*	Date Ended				:
+	*	Description				:	contains information about different link and type of page design
+	*	Last Modified				:
+	* 	Last Modified Date 			:
+	* 	Update                      			:
+	*/
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
    <title>HTML Links</title>
    <meta charset="UTF-8">
    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
-   <link rel="stylesheet" href="./css/htmllinks.css?44">
+   <link rel="stylesheet" href="./css/htmllinks.css?51">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-
 </head>
 <body>
 
@@ -26,26 +38,58 @@
 		<nav >
 			<div class="leftnav"><img src="./images/logo2.png" alt="logo"></div>
 			<div class="rightnav">
-					<ol>
-						<li><a href="">ekek</a></li>
-						<li><a href="">dodo</a></li>
-						<li><a href="">teenteen</a></li>
-						<li><a href="">char</a></li>
-					</ol>
+				<ol>
+					<li><a href="">gamma</a></li>
+					<li><a href="">beta</a></li>
+					<li><a href="">alpha</a></li>
+					<li><a href="">about</a></li>
+				</ol>
 			</div>
 		</nav>
       </header>
       <main>
       		<section>
-      					<h1>Type of links in html</h1>
+      			<h1>Type of links in html</h1>
 			<article>
-					<h2>Simple and most common link</h2>
-					<div class="code_result">
-					 	<div class="code"><a href="http://www.google.com/">Welcome to Google Search</a></div>
-					</div>
+				<h2>1.Simple and most common link</h2>
+				<div class="code_result">
+					<div class="code"><p>&lt;a href="http://www.google.com/" &gt; Welcome to Google Search &lt;/a&gt;</p></div>
+				 	<div class="result">RESULT: <a href="http://www.google.com/">Welcome to Google Search</a></div>
+				 	<div class="description"><p>Default link opens in the same window, this link takes to different website</p></div>
+				</div>
+			</article>
+			<article>
+				<h2>2.Local link</h2>
+				<div class="code_result">
+					<div class="code"><p>&lt;a href="index.html" &gt; index page of this website &lt;/a&gt;</p></div>
+				 	<div class="result">RESULT: <a href="index.html">Welcome to index page</a></div>
+				 	<div class="description"><p>This link opens in the same window, this link takes to same page of  website</p></div>
+				</div>
+			</article>
+			<article>
+				<h2>3.link with new tab as target</h2>
+				<div class="code_result">
+					<div class="code"><p>&lt;a href="http://www.google.com/"  target="_blank"&gt; Welcome to Google Search &lt;/a&gt;</p></div>
+				 	<div class="result">RESULT: <a href="http://www.google.com/" target="_blank">Welcome to Google Search</a></div>
+				 	<div class="description"><p>This link opens in the new tab</p></div>
+				</div>
+			</article>
+			<article>
+				<h2>4.link with same frame as target, which is deafult</h2>
+				<div class="code_result">
+					<div class="code"><p>&lt;a href="http://www.google.com/"  target="_self"&gt; Welcome to Google Search &lt;/a&gt;</p></div>
+				 	<div class="result">RESULT: <a href="http://www.google.com/" target="_self">Welcome to Google Search</a></div>
+				 	<div class="description"><p>This opens an anchor in the same frame, 	<a href="http://stackoverflow.com/questions/18470097/difference-between-self-top-and-parent-in-the-anchor-tag-target-attribute" target="_blank">for more info </a></p></div>
+				</div>
+				<div class="code_result">
+				<iframe src="./iframe.html" name="iframe_a" height="1500px" width="100%">
+					<p>Your browser does not support iframes</p>
+				</iframe>
+				</div>
 			</article>
       		</section>
-
+      		images as link
+      		links as bookmarks
       </main>
 </div> <!-- wrapper div ends here -->
 
