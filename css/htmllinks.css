@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 		text-transform: uppercase;
 }
 
-.leftsidebar p a {
+p.leftsidebar  a {
 		display:  inline-block;
 		text-transform: uppercase;
 		color: #4e6779;
@@ -95,7 +95,6 @@ h1, h2, h3, h4, h5, h6 {
 .rightsidebar a:hover {
 	color: #0000FF;
 }
-
 
 nav {
 		clear: both;
@@ -195,4 +194,90 @@ article {
 article h2 {
 		padding:  5px;
 		margin:  5px;
+}
+
+.bottombar {
+	border: 2px solid #0000FF;
+	background-color: #C0C0C0	;
+}
+
+div.further_info {
+	margin:  5%;
+	padding:  10px;
+	width:  60%;
+	float: left;
+}
+
+.info_heading {
+	margin:  10px ;
+	padding:  10px;
+
+}
+
+.info_info {
+	margin:  10px ;
+	padding:  10px;
+}
+
+.bottom_barimage {
+	float: left;
+	margin: 5%;
+	padding: 10px;
+	width: 200px;
+	height:  100px;
+}
+
+div.bottom_barimage > img {
+	border: 1px solid black;
+}
+
+footer {
+	clear: both;
+}
+
+
+
+.footerTopBar {
+	background-color:#168A3E
+}
+
+.footerBottomBar {
+	background-color:#0000F4;
+	height: 300px;
+}
+
+footer ol {
+	list-style: none;
+	padding:  10px;
+}
+
+footer li{
+	display:  inline;
+	margin: 10px;
+}
+.socialIcons {
+	margin:  0 auto;
+	width: 50%;
+	height:  70%;
+	padding:  25px;
+}
+
+.facebook {
+	float: left;
+	margin:  10px;
+}
+
+.twitter{
+	float: left;
+	margin:  10px;
+}
+
+.google {
+	float: left;
+	margin:  10px;
+}
+
+.pintrest {
+	float: left;
+	margin:  10px;
 }
