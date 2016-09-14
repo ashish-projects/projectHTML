@@ -1,0 +1,56 @@
+div.list1 {
+
+border: 1px solid green;
+}
+
+div.list1 h1 {
+	text-align: center;
+}
+
+div.list1 ol {
+	margin-right:  10px;
+}
+
+div.list1 ol li {
+	padding: 5px;
+
+}
+
+div.list1 ol li:hover{
+		font-weight: bold;
+}
+
+/* ---------------------------------------------------------------------- list2 css starts here -------------------------------------------*/
+div.list2 {
+	border:  1px solid black;
+	margin:  0 ;
+	overflow: hidden;
+	background-color: green;
+}
+
+div.list2 ol {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+
+}
+
+div.list2 ol li {
+	float: left;
+}
+
+div.list2 ol li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    }
+
+div.list2 ol li a:hover {
+	color: white;
+	background-color:  black;
+}
+

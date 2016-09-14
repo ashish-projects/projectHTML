@@ -36,7 +36,7 @@ Special Comments:
 <![endif]-->
 
 =========================================================================================
-section division/document structure
+2:-section division/document structure
 
 <div></div>
 <span></span>
@@ -44,7 +44,7 @@ section division/document structure
 <br />
 <hr />
 ====================================================================================================
-Text Formating Tags/text markup
+1:- Text Formating Tags/text markup
 
 1. paragraph : <p></p>--------------------------
 2. headings: <h1></h1> to <h6></h6>-----------------------
@@ -157,4 +157,8 @@ XHTML : free with HTML
 Prepare your awesome footer for all info at one place*********
 
 =======================================
+
+or ELSE:
+
+develop a few sites like porsceevolution etc and ur onlinr profile or website.
 

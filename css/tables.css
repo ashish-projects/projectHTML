@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Dancing+Script';
+//@import 'https://fonts.googleapis.com/css?family=Dancing+Script';
 
 * {
 margin: 0px;
@@ -15,7 +15,7 @@ display: block;
 }
 
 body{
-font-family: 'Dancing Script', cursive;
+font-family: 'Dancing Script', 'arial' cursive;
 }
 
 .wrapper {
@@ -29,7 +29,20 @@ font-family: 'Dancing Script', cursive;
 	padding: 10px;
 }
 
-.table{
+table{
+	width: 100%;
+	border-spacing: 10px;
+}
+
+
+table, tr, td{
+border:  1px solid black;
+/* border-collapse: collapse; */
+text-align: center;
+}
+
+th, td {
+padding: 5px;
 }
 
 .description {
@@ -39,6 +52,17 @@ font-family: 'Dancing Script', cursive;
 	margin:  10px;
 }
 
-#t1 {
-
+table tr:nth-child(even){
+	background-color: grey;
 }
+
+table th{
+	color: white;
+	background-color: black;
+}
+
+table td:hover {
+background-color: black;
+color: white;
+}
+
