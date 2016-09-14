@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="HTML form examples">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Html forms</title>
+        <link rel="stylesheet" href="./css/forms.css">
+        <link rel="author" href="humans.txt">
+    </head>
+    <body>
+
+    <div class="form1">
+
+<!--     form elements
+    registration page
+    1.name
+    2.username
+    2.email address
+    3.passoword
+    3.password meter
+    4.Reenterpassword
+    5.gender
+    6.text area
+    7.Skills
+    8company
+    9. additional skills
+    10.Accept the terms
+    11.submit button /creata account
+    12.mobile number.
+    13. Sound
+    14 billing address with country select opt group -->
+
+		<form action="" method="get" enctype="multipart/form-data">
+			<ol>
+				<li>
+					<input type="text" name="name" placeholder="name" >
+					<input type="text" name="username" placeholder="username" >
+					<div style="clear:both"></div>
+				</li>
+
+				<li>
+				<input type="text" name="email address" placeholder="emailAddress" >
+
+
+				<div style="clear:both"></div>
+				</li>
+
+				<li class="gender">
+					<span class="genderInfo">Gender</span>
+					<input type="radio" name="gender" value="male" checked="checked">Male
+					<input type="radio" name="gender" value="female" >Female
+					<div class="vehicleInfo">Vehicle you own</div>
+					 <input type="checkbox" name="vehicle1" value="Bike"> I have a bike
+  					<input type="checkbox" name="vehicle2" value="Car"> I have a car
+				</li>
+
+				<li>
+					<textarea name="message" id="" cols="30" rows="10" placeholder="Type your message here"></textarea>
+					<div style="clear:both"></div>
+				</li>
+				<li>
+
+				</li>
+
+				<li>
+					<fieldset>
+						<legend>Billing address</legend>
+						<ol>
+							<li>
+							<input type="text" name="houseNumber" placeholder="houseNumber">
+							<input type="text" name="Street1" placeholder="Street1">
+							<div style="clear:both"></div>
+							</li>
+							<li>
+								<input type="text" name="area" placeholder="area">
+								<input type="text" name="landmark" placeholder="landmark">
+								<div style="clear:both"></div>
+							</li>
+							<li>
+								<input type="text" name="pincode" placeholder="pincode">
+								<select name="state" >
+									<option value="state">State</option>
+									<option value="Maharastra">Maharastra</option>
+									<option value="Goa">Goa</option>
+									<option value="Jammu &amp; Kashmir">Jammu &amp; Kashmir</option>
+									<option value="Delhi">Delhi</option>
+									<option value="Kerala">Kerala</option>
+									<option value="Assam">Assam</option>
+									<option value="Orrisa">Orrisa</option>
+									<option value="Andra Pradesh">Andra Pradesh</option>
+								</select>
+								<div style="clear:both"></div>
+							</li>
+								<li>
+									<select name="Country" >
+										<option value="Country" >Country</option>
+										<option value="India">India</option>
+										<option value="USA">USA</option>
+										<option value="UK">UK</option>
+										<option value="France">France</option>
+										<option value="Germany">Gernamy</option>
+										<option value="Japan">Japan</option>
+										<option value="China">China</option>
+									</select>
+								</li>
+						</ol>
+
+					</fieldset>
+				</li>
+				<li>
+					<button type="button">Submit</button>
+					<input type="submit" name="submit" id="defaultSubmit">
+					<input type="button" value="submit">
+					<input type="reset" name="reset">
+				</li>
+			</ol>
+
+		</form>
+    </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

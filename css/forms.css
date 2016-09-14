@@ -1,0 +1,78 @@
+div.form1 {
+	border:  1px solid green;
+	margin:  10px auto;
+	padding: 10px;
+	overflow: hidden;
+}
+
+div.form1 ol {
+	list-style: none;
+	overflow: hidden;
+}
+
+div.form1 ol  li {
+
+	margin:  0 auto;
+}
+
+div.form1 input[type="text"]{
+	width:  200px;
+	padding: 5px;
+	margin: 10px;
+	float: left;
+	font-weight:  bold;
+	color: grey;
+	font-size: 16px;
+}
+
+div.form1 input[type="text"]:hover {
+	background-color: white;
+	border-color:  white;
+	color: black;
+}
+
+div.form1 select {
+	width:  200px;
+	padding: 5px;
+	margin: 10px;
+}
+
+div.form1 textarea {
+	padding: 5px;
+	margin:  10px;
+}
+
+button {
+	width:  200px;
+	padding: 5px;
+	margin: 10px;
+	float: left;
+	font-weight:  bold;
+	color: grey;
+	font-size: 16px;
+}
+
+div.form1 input[type="radio"]{
+	margin: 15px;
+	font-weight:  bold;
+	color: grey;
+	font-size: 16px;
+}
+
+.gender {
+	font-weight:  bold;
+	color: grey;
+	font-size: 16px;
+}
+
+.genderInfo {
+	display: inline-block;
+	margin: 15px;
+
+}
+
+.vehicleInfo {
+	margin: 15px;
+}
+
+

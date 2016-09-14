@@ -1,0 +1,68 @@
+//@import 'https://fonts.googleapis.com/css?family=Dancing+Script';
+
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-size: 100%;
+text-decoration:none;
+border:none;
+}
+
+/*For non html5 browser*/
+header, section, footer, aside, nav, main, article, figure {
+display: block;
+}
+
+body{
+font-family: 'Dancing Script', 'arial' cursive;
+}
+
+.wrapper {
+	width:  90%;
+	border: 1px solid #C0C0C0;
+	margin:  0 auto;
+}
+
+.tablewrapper {
+	border:  1px solid black;
+	padding: 10px;
+}
+
+table{
+	width: 100%;
+	border-spacing: 10px;
+}
+
+
+table, tr, td{
+border:  1px solid black;
+/* border-collapse: collapse; */
+text-align: center;
+}
+
+th, td {
+padding: 5px;
+}
+
+.description {
+	border:  1px solid green;
+	width: 40%;
+	text-align: center;
+	margin:  10px;
+}
+
+table tr:nth-child(even){
+	background-color: grey;
+}
+
+table th{
+	color: white;
+	background-color: black;
+}
+
+table td:hover {
+background-color: black;
+color: white;
+}
+

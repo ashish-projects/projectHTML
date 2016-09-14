@@ -1,0 +1,59 @@
+@import 'https://fonts.googleapis.com/css?family=Dancing+Script';
+
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-size: 100%;
+text-decoration:none;
+border:none;
+}
+
+/*For non html5 browser*/
+header, section, footer, aside, nav, main, article, figure {
+display: block;
+}
+
+body{
+font-family: 'Dancing Script', cursive;
+}
+
+.wrapper {
+	width:  90%;
+	border: 1px solid #C0C0C0;
+	margin:  0 auto;
+}
+
+.info {
+	float: left;
+	width: 45%;
+	margin: 10px;
+	border: 1px solid black;
+	padding: 1px solid green;
+}
+
+img {
+	width:  100%;
+}
+
+img + p {
+	text-align: center;
+	padding: 5px;
+	font-size: 26px;
+}
+
+.first_right {
+	float: left;
+	width: 45%;
+	margin: 10px;
+	border: 1px solid black;
+	padding: 1px solid green;
+}
+
+.second_left{
+	float: left;
+	width: 45%;
+	margin: 10px;
+	border: 1px solid black;
+	padding: 1px solid green;
+}
