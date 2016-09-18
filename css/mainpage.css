@@ -1,0 +1,31 @@
+
+
+.wrapper{
+	position: absolute;
+	margin: 0 auto;
+	width: 95%;
+	padding: 10px;
+
+}
+.circle {
+	width: 200px;
+	height: 200px;
+	background: #708090;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	position: relative;
+	float: left;
+	margin: 10px;
+	text-align: center;
+}
+
+
+a{
+	text-decoration: none;
+	position: relative;
+	top: 90px;
+	font-size: 18px;
+	font-weight: bold;
+	color: yellow;
+}
