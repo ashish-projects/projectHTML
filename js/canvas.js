@@ -48,7 +48,7 @@ function drawCircle (){
 	var ctx = c.getContext("2d");
 	ctx.beginPath();
 	ctx.arc(150,150,50,0,2*Math.PI);
-	ctx.stroke();
+	ctx.fill();
 }
 
 drawCircle();
@@ -94,3 +94,4 @@ ctx.fillRect(0,0,300,300);
 
 radialGradient();
 
+//create solar eclipse using canvas

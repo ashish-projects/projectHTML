@@ -39,8 +39,9 @@ margin: 0 auto;
 height: 100%;
 background-color:#BDC1F6
 }
-canvas {
+svg {
    margin:2%;
+   border: 2px solid grey;
 }
 
 h1 {

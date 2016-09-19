@@ -29,6 +29,7 @@ background-color: #ffffff;
 margin:0px;
 padding: 0px;
 overflow-x:hidden;
+text-align: center;
 }
 
 .wrapper {
@@ -37,23 +38,9 @@ top: 0;
 width: 80%;
 margin: 0 auto;
 height: 100%;
-background-color:#BDC1F6
-}
-canvas {
-   margin:2%;
+background-color:#C4C093;
 }
 
-h1 {
-
-font-weight: bold;
-font-size: 20px;
-padding:3px;
-margin:5px;
-}
-
-.mainPageLink {
-
-   position:absolute;
-   top:5px;
-   right:5px;
+.videocase {
+   margin:10px;
 }
