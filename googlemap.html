@@ -1,0 +1,44 @@
+<!--
+/*
+    *      Title                                            : google maps
+    *      Author                                       :   Ashish Raina
+    *      Date Started                             : Monday-1:30pm-september-19-2016
+    *      Date Ended                              :
+    *      Description                               :
+    *      Last Modified                           :
+    *      Last Modified Date                  :
+    *      Update                                      :
+    */
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<![endif]-->
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Google Map</title>
+        <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="author" href="humans.txt">
+
+        <script>
+                function createMap (){
+                        var mapOptions ={
+                                center: new google.maps.LatLng(19.4094895,72.833558),
+                                zoom:30,
+                                mapTypeId: google.maps.MapTypeId.HYBRID
+                        }
+                        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+                }
+
+        </script>
+    </head>
+    <body lang="en-US">
+
+        <div class="map" id="map" style="width:800px;height:800px">Map will go here!</div>
+        <script src="https://maps.googleapis.com/maps/api/js?callback=createMap"></script>
+    </body>
+</html>
