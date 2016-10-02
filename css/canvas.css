@@ -34,17 +34,19 @@ overflow-x:hidden;
 .wrapper {
 position: relative;
 top: 0;
-width: 80%;
+width: 90%;
 margin: 0 auto;
 height: 100%;
 background-color:#BDC1F6
 }
 canvas {
-   margin:2%;
+   width:300px;
+   height:300px;
+   border: 1px solid black;
+   display:inline;
 }
 
 h1 {
-
 font-weight: bold;
 font-size: 20px;
 padding:3px;
@@ -52,8 +54,26 @@ margin:5px;
 }
 
 .mainPageLink {
-
    position:absolute;
    top:5px;
    right:5px;
+}
+.canvas-wrapper {
+   width: 320px;
+   margin:10px;
+   text-align: center;
+   display: inline-block;
+   overflow:hidden;
+}
+.info {
+text-align: center;
+font:"bold 20px Tahoma";
+}
+
+.svg-wrapper {
+   width: 320px;
+   margin:10px;
+   text-align: center;
+   display: inline-block;
+   overflow:hidden;
 }
