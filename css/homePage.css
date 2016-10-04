@@ -314,6 +314,17 @@ overflow: scroll ;
 	text-transform: uppercase;
 }
 
+.html_index2 {
+	position: absolute;
+	font-size: 20px;
+	top:12%;
+	left: 30%;
+	color: #00308F;
+	height: 85%;
+	width: 33%;
+	text-transform: uppercase;
+}
+
 .html-list {
 height: 100%;
 }
