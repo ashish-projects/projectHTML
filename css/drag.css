@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+/* ======================css reset starts here========================= */
+
+
+
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-size: 100%;
+text-decoration:none;
+border:none;
+}
+
+/*For non html5 browser*/
+header, section, footer, aside, nav, main, article, figure {
+display: block;
+}
+
+
+/*  ======================css reset ends here========================== */
+
+/*  ======================css skelton========================== */
+
+html, body {
+font-family: Nunito;
+background-color: #ffffff;
+margin:0px;
+padding: 0px;
+overflow-x:hidden;
+/* text-align: center; */
+}
+
+.wrapper {
+position: relative;
+top: 0;
+width: 90%;
+margin: 0 auto;
+height: 100%;
+background-color:#C4C093;
+}
+
+h1{
+text-align: center;
+font: bold 30px Tahoma;
+}
+
+
+.example1 {
+	border:  2px solid green;
+}
+
+.left {
+	border:  3px solid purple;
+	width:  40%;
+	margin:  5%;
+	float: left;
+	height: 200px;
+}
+
+.right {
+	border:  3px solid black;
+	width:  40%;
+	margin:  5%;
+	float: left;
+	height: 200px;
+	padding: 5px;
+}
+.clear{
+	clear: both;
+}

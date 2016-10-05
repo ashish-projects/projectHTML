@@ -17,12 +17,29 @@
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Untitled</title>
-        <link rel="stylesheet" href="css/style.css">
+        <title>Drag and Drop</title>
+        <link rel="stylesheet" href="css/drag.css">
         <link rel="author" href="humans.txt">
     </head>
     <body>
-    <div class="mainpage"><a href="index.html">Main Page</a></div>
-        <script src="js/main.js"></script>
+    <div class="wrapper">
+             <div>
+                      <h1>Drag and Drop Examples</h1>
+             </div>
+             <span class="mainpagelink"><a href="index.html">Main Page</a></span>
+
+             <div class="example1" >
+                      <div id="left" class="left" ondragstart="drag(event)" ondragover="dragover(event)" ondrop="drop(event)">
+
+                      </div>
+
+                      <div id-"left" class="right" ondragover="dragover(event)" ondragstart="drag(event)"  ondrop="drop(event)">
+                            <img id="image" src="./images/download.png" alt="test-image" width="150" height="150" draggable="true">
+                      </div>
+             </div>
+             <div class="clear"></div>
+      </div>
+
+        <script src="js/drag.js"></script>
     </body>
 </html>
