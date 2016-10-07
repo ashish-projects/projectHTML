@@ -162,3 +162,16 @@ or ELSE:
 
 develop a few sites like porsceevolution etc and ur onlinr profile or website.
 
+
+====================================================================
+Type of pages and their name
+
+1.Basic HTML pages => start with html
+2.About us Pages =>starts with about
+3. about info pages: like responsive text, different layouts => blog
+4.other pages like roughpad, tasklistproject-help=>project
+5.Pages that are used for other purpose like sample html-> support
+6.Advanced creation => like advanced tables, for that create folder if possible-> feature
+7. extra features on website like news => web
+
+

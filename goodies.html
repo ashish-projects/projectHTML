@@ -1,0 +1,78 @@
+<html manifest="HTML5_AppCache_Example.appcache">
+<head>
+    <title>HTML 5 AppCache Example - Loan Calculator</title>
+    <link href="HTML5_AppCache_LoanCalculator.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<script src="HTML5_AppCache_LoanCalculator.js" type="text/javascript"></script>
+
+<script language="JavaScript" type="text/javascript">
+    function getResult() {
+        var calculationResult = calculateLoanPayment(document.getElementById("TextPrincipal"),document.getElementById("TextTerm"),document.getElementById("TextRate"));
+        if ((calculationResult == null) || (isNaN(calculationResult)))
+        {
+            document.loanCalculator.TextCalculatedPayment.value = "Unable to calculate due to invlaid data. Please make sure initial loan amount, term (monthly), and interest rate are all numeric values.";
+            document.getElementById("TextCalculatedPayment").setAttribute("class", "error");
+        }
+        else
+        {
+            document.loanCalculator.TextCalculatedPayment.value = calculationResult;
+            document.loanCalculator.TextCalculatedPayment.setAttribute("class", "result");
+        }
+    }
+
+</script>
+
+    <form name="loanCalculator" method="post">
+        <table cellpadding="5" cellspacing="0" width="800px">
+            <tr>
+                <td colspan="2" class="heading">
+                    HTML 5 AppCache Loan Calculator Example</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="tableContent">
+                    This calculator is being used for the purposes of illustrating how HTML 5
+                    AppCache works in an offline scenario.
+                    The calculations that it provides are extremely simple and should not be used
+                    for actual loan payment calculations.</td>
+            </tr>
+            <tr>
+                <td align="right" class="tableContent">
+                    Loan Amount:</td>
+                <td>
+                    <input id="TextPrincipal" size="30" title="Loan Amount" type="text"
+                        class="input" /></td>
+            </tr>
+            <tr>
+                <td align="right" class="tableContent">
+                    Term (in months):</td>
+                <td>
+                    <input id="TextTerm" size="30" title="Loan Term" type="text" class="input" /></td>
+            </tr>
+            <tr>
+                <td align="right" class="tableContent">
+                    Interest Rate:</td>
+                <td>
+                    <input id="TextRate" size="30" title="Interest Rate" type="text"
+                        class="input" /></td>
+            </tr>
+            <tr>
+                <td align="right" class="tableContent">
+                    Calculated Payment:</td>
+                <td>
+                    <input id="TextCalculatedPayment" readonly="readonly" size="44"
+                        title="Calculated Monthly Payment" type="text" class="result" /></td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    <input id="ButtonCalculate" type="button" value="Calculate"
+                        onclick="getResult()" class="tableContent" />&nbsp;
+                    <input id="ResetCalculator" type="reset" value="Reset" class="tableContent" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
