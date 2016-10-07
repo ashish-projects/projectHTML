@@ -39,4 +39,65 @@ width: 80%;
 margin: 0 auto;
 height: 100%;
 background-color:#C4C093;
+height:900px;
+text-align: center;
+}
+
+nav{
+
+
+}
+
+nav ol{
+   list-style-type: none;
+}
+
+nav ol li {
+   float:left;
+
+}
+
+.clear{
+   clear:both;
+}
+a{
+  display:block;
+   padding:10px;
+   margin:5px;
+   width:100px;
+   text-align: center;
+
+}
+
+a:hover{
+   background: white;
+   color:black;
+
+}
+
+main{
+   float:left;
+   width:70%;
+   background-color: #253620;
+   color:white;
+   padding:20px;
+   margin: 0 auto;
+   height:700px;
+}
+
+aside{
+   float:left;
+   background-color: #903620;
+   color:white;
+   padding:20px;
+   margin: 0 auto;
+   width:30%;
+   height:700px;
+}
+
+footer{
+   background-color: #259020;
+   color:white;
+   padding:20px;
+   margin: 0 auto;
 }
