@@ -39,77 +39,21 @@ width: 80%;
 margin: 0 auto;
 height: 100%;
 background-color:#C4C093;
-height:900px;
-text-align: center;
 }
 
-nav{
-
-
+.buttons{
+	border:  1px solid green;
+}
+.button{
+	float: left;
+	width: 100px;
+	height:  100px;
+	border-radius: 5px;
+	background-color: red;
+	margin: 10px;
+	padding: 5px;
 }
 
-nav ol{
-   list-style-type: none;
-}
-
-nav ol li {
-   float:left;
-
-}
-
-.logoimage {
-position: absolute;
-top: 10px;
-right: 10px;
-}
-
-.clear{
-   clear:both;
-}
-a{
-  display:block;
-   padding:10px;
-   margin:5px;
-   width:100px;
-   text-align: center;
-
-}
-
-a:hover{
-   background: white;
-   color:black;
-
-}
-
-main{
-   float:left;
-   width:70%;
-   background-color: #253620;
-   color:white;
-   padding:20px;
-   margin: 0 auto;
-   height:700px;
-}
-
-#animate {
-   position: relative;
-   top: 100px;
-   left: 100px;
-}
-
-aside{
-   float:left;
-   background-color: #903620;
-   color:white;
-   padding:20px;
-   margin: 0 auto;
-   width:30%;
-   height:700px;
-}
-
-footer{
-   background-color: #259020;
-   color:white;
-   padding:20px;
-   margin: 0 auto;
+.clear {
+	clear: both;
 }
